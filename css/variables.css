@@ -1,0 +1,11 @@
+.wrapper{
+    margin: 2% 10% 0 10%;
+    /* max-width: 1416px; */
+}
+:root{
+   --main-font: "Raleway";
+   --main-bg-color: #2F80ED;
+   --main-bg-dark: #333333;
+   --main-second-grey: #EFF3F6;
+   --main-danger-color: #EB5757;
+}
