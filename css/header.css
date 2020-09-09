@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 2px;
+}
+
+.logo{
+    background-image: url('../images/Logo.png');
+    height: 58px;
+    width: 182px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.nav {
+    display: flex;
+    width: 55%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav__link {
+    font-size : 14px;
+    color: var(--main-text-color);
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.6px;
+}
+
+.logo_second {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--main-text-color);
+    line-height: 26px;
+    letter-spacing: 0.6px;
+}
+
