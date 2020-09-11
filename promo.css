@@ -1,0 +1,35 @@
+.promo {
+    background-image: url('images/promo_img.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:700px;
+
+}
+
+.promo_modification_position {
+    padding: 12% 52% 18% 8%;
+    width: 35%;
+}
+
+.promo__title {
+    color: white;
+    font-size: 55px;
+    font-weight: bold;
+}
+.promo__text {
+
+    color: white;
+    font-size:22px;
+}
+
+.promo__button {
+    color:white;
+    border-radius: 10px;
+    background-color: #005BFF;
+    font-size: 20px;
+    width: 35%;
+    padding: 3% 0 3% 0;
+    border:0px;
+
+}

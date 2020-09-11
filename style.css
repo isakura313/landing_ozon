@@ -1,0 +1,5 @@
+@import 'header.css';
+@import 'promo.css';
+@import 'cards.css';
+
+* {font-family: 'Noto Serif', serif;}

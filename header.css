@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    display: flex;
+    background-image: url('images/Logo.png');
+    height: 58px;
+    width:181px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.header__nav {
+    display: flex;
+    justify-content: space-around;
+    width: 37%;
+
+}
+
+.header__a {
+    font-size: 16px;
+    text-decoration: none;
+}
+.header__a:visited {
+    color:black;
+    text-decoration:none
+}
+
+.header__tagline {
+    font-size: 26px;
+}
