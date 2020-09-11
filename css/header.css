@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo {
+    background-image: url('../images/Logo.png');
+    height: 58px;
+    width: 190px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.nav {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+}
+
+.nav__a {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+.logo_second {
+    margin-left: 3%;
+    font-size: 22px;
+    justify-self: flex-end;
+}
