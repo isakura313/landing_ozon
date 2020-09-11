@@ -11,7 +11,7 @@
     />
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="images/favicon.png" type="image/png" />
-    <script src="code.js"></script>
+    <script src="code.js" defer></script>
   </head>
 
   <body>
@@ -35,13 +35,16 @@
           <button class="promo_wrapper__btn">Выбрать курс</button>
         </div>
       </div>
+      <h3 class="courses__title">Наши курсы</h3>
+      
+      
       <div class="courses">
-        <h3 class="courses__title">Наши курсы</h3>
-
-        <div class="cource_card">
-          <div class="cource_card__img cource_card__img_notebooks"></div>
+        <div class="course_card">
+          <div class="course_card__img course_card__img_notebooks"></div>
           <div class="course_card_wrapper">
-            <h5 class="cource_card__title">Бизнес-аналитика</h5>
+            <div class="course_card__title_wrapper">
+              <h5 class="course_card__title">Бизнес-аналитика</h5>
+            </div>
             <p class="course_card__text">
               Изучение основных инструментов и механизмов бизнес-аналитики
             </p>
@@ -49,30 +52,33 @@
           </div>
         </div>
 
-        <div class="cource_card">
-          <div class="cource_card__img cource_card__img_keyboards"></div>
+        <div class="course_card">
+          <div class="course_card__img course_card__img_keyboards"></div>
           <div class="course_card_wrapper">
-            <h5 class="cource_card__title">Python 18+</h5>
-            <p class="course_card__text">
+            <div class="course_card__title_wrapper">
+              <h5 class="course_card__title">Python 18+</h5>
+            </div>
+              <p class="course_card__text">
               Основы программирования и знакомство с возможностями языка Python
             </p>
             <a href="#" class="course_card__link">Узнать больше</a>
           </div>
         </div>
 
-        <div class="cource_card">
-          <div class="cource_card__img cource_card__img_buttons"></div>
+        <div class="course_card">
+          <div class="course_card__img course_card__img_buttons"></div>
           <div class="course_card_wrapper">
-            <h5 class="cource_card__title">Frontend-разработчик</h5>
-            <p class="course_card__text">
+            <div class="course_card__title_wrapper">
+              <h5 class="course_card__title">Frontend-разработчик</h5>
+            </div>
+              <p class="course_card__text">
               Курс для новичков, которые хотят начать свой путь в
               Frontend-разработке
             </p>
             <a href="#" class="course_card__link">Узнать больше</a>
           </div>
-        </div>
       </div>
-
+    </div>
       <div class="promo_second">
         <div class="promo_second_wrapper">
           <h3 class="promo_second_wrapper__title">Сложно определиться?</h3>
@@ -83,11 +89,8 @@
           <button class="promo_second_wrapper__btn">Оставить заявку</button>
         </div>
       </div>
-
+      <h2 class="features__h2">Преимущества</h2>
       <div class="features">
-
-        <h2 class="features__h2">Преимущества</h2>
-
         <div class="feature_card">
           <div class="feature_card__img feature_card__img_lider"></div>
           <h3 class="feature_card__title">Лидерство</h3>
@@ -117,7 +120,6 @@
             Поддержка преподавателя и куратора на всех этапах обучения
           </p>
         </div>
-
       </div>
     </div>
     <div class="form_wrapper">
@@ -128,29 +130,30 @@
             <input type="email" class="application__input" name="email" placeholder="E-mail">
             <input type="text" class="application__input" name="name" placeholder="Имя">
             <input type="text" class="application__input" name="surname" placeholder="Фамилия">
-            <select name="" id="" class="application__select">
+            <select name="" id="select_form" class="application__select">
                 <option value="" disabled selected class="application__option_disabled">Выберите курс</option>
-                <option value="" class="application__option">Бизнес-аналитика</option>
-                <option value="" class="application__option">Python 18+</option>
-                <option value="" class="application__option">Frontend-разработчик</option>
+                <option value="business" class="application__option">Бизнес-аналитика</option>
+                <option value="python" class="application__option">Python 18+</option>
+                <option value="frontend" class="application__option">Frontend-разработчик</option>
             </select>
             <textarea name="" id="" cols="20" rows="5" class="application__textarea" placeholder="Комментарий"></textarea>
             <button type="submit" class="application__submit">Отправить заявку</button>
         </form>
     </div>
     <footer class="footer">
-        <div class="footer-wrapper">
-          <div class="footer-logo"></div>
+        <div class="footer_wrapper">
+          <div class="footer_logo"></div>
+          <p class="footer__tagline">Это вам не Школа!</p>
           <div class="copyright">
             <p class="copyright__text">© 2019 ООО «Интернет Решения». Все права защищены. Москва, Пресненская наб., 10, блок С ons@ozon.ru</p>
           </div>
           <div class="social">
-            <a href="#" class="social__link"><img src="images/Icons/Insta.svg" alt=""></a>
-            <a href="#" class="social__link"><img src="images/Icons/Facebook.svg" alt=""></a>
-            <a href="#" class="social__link"><img src="images/Icons/VK.svg" alt=""></a>
-            <a href="#" class="social__link"><img src="images/Icons/Youtube.svg" alt=""></a>
+            <a href="#" class="social__link"><div class="social__link_insta"></div></a>
+            <a href="#" class="social__link"><div class="social__link_facebook"></div></a>
+            <a href="#" class="social__link"><div class="social__link_vk"></div></a>
+            <a href="#" class="social__link"><div class="social__link_youtube"></div></a>
           </div>
-          <div class="footer-second-logo"></div>
+          <div class="footer_second_logo"></div>
         </div>
     </footer>
   </body>
