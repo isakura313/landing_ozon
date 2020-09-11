@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-.footer-wrapper {
+.footer_wrapper {
     width: 100%;
     height: fit-content;
     display: flex;
@@ -15,7 +15,7 @@
     align-items: center;
 }
 
-.footer-logo {
+.footer_logo {
     background-image: url('../images/Logo-footer.png');
     height: 58px;
     width:182px;
@@ -38,9 +38,35 @@
 
 .social {
     width: fit-content;
+    display: flex;
+    gap: 10px;
 }
 
-.footer-second-logo {
+.social__link_insta {
+    width: 39px;
+    height: 39px;
+    background-image: url(../images/Icons/Insta.svg);
+}
+
+.social__link_facebook {
+    width: 39px;
+    height: 39px;
+    background-image: url(../images/Icons/Facebook.svg);
+}
+
+.social__link_vk {
+    width: 39px;
+    height: 39px;
+    background-image: url(../images/Icons/VK.svg);
+}
+
+.social__link_youtube {
+    width: 39px;
+    height: 39px;
+    background-image: url(../images/Icons/Youtube.svg);
+}
+
+.footer_second_logo {
     background-image: url('../images/Ozon_logo.png');
     height: 23px;
     width: 107px;

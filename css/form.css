@@ -38,6 +38,14 @@
     letter-spacing: 0.7px;
 }
 
+.application__input:focus::placeholder {
+    color: #B2BAC2;
+}
+
+.application__input:focus {
+    border: 2px solid var(--main-bg-color);
+}
+
 .application__textarea {
     margin-bottom: 64px;
     padding: 20px 16px;
@@ -53,10 +61,14 @@
     outline: none;
     border: 2px solid #B2BAC2;
     font-family: var(--main-font);
-    color: #667585;
+    color: #B2BAC2;
     opacity: 1;
     font-weight: 700;
     letter-spacing: 0.7px;
+}
+
+.application__select:focus {
+    color: black;
 }
 
 select {

@@ -10,7 +10,7 @@
     text-align: center;
     font-family: var(--main-font);
     font-size: 46px;
-    margin-top: 0;
+    margin-top: 51px;
     margin-bottom: 64px;
 }
 .course_card{
@@ -20,24 +20,24 @@
     border: 1px solid #E9EEF1;
     padding: 32px 24px;
 }
-.cource_card__img{
+.course_card__img{
     background-size:cover;
     background-repeat: no-repeat;
     height: 172px;
     border-radius: 8px 8px 0 0;
 }
-.cource_card__img_notebooks{
+.course_card__img_notebooks{
     background-image: url('../images/course_notebook.png');
 }
 
-.cource_card__img_keyboards{
+.course_card__img_keyboards{
     background-image: url('../images/course_keyboards.png');
 
 }
-.cource_card__img_buttons{
+.course_card__img_buttons{
     background-image: url('../images/course_buttons.png');
 }
-.cource_card__title{
+.course_card__title{
     font-size: 24px;
     font-family: var(--main-font);
     margin: 0;
@@ -48,9 +48,9 @@
     line-height: 1.6;
 }
 .course_card__link{
-    color: var(--main-bg-color);
+    color: var(--second-bg-color);
     text-decoration: none;
     font-size: 20px;
     letter-spacing: 0.5px;
-
+    font-family: var(--main-font);
 }
