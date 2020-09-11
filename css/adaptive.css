@@ -9,8 +9,12 @@
         margin-left: 4.5%;
     }
     
-    .nav__a, .logo_second {
+    .nav, .logo_second, .nav_mobile{
         display: none;
+    }
+    .adaptive_menu{
+        display: block;
+        margin-right: 5%;
     }
 
     .promo {
@@ -38,9 +42,10 @@
 
     .courses {
         height: 450px;
-        overflow: scroll;
-        margin: 36px 0 34px 0;
+        overflow-x: scroll;
+        margin: 36px 16px 34px 0;
         padding: 0 16px;
+        display: grid;
     }
 
     .courses__title {
@@ -55,12 +60,14 @@
         box-shadow: 2px 2px 20px #E9EEF1;
         border-radius: 12px;
         border: 1px solid #E9EEF1;
+        box-sizing: border-box;
+        /* padding-right: 20px; */
     }
 
     .course_card_wrapper {
         height: 256px;
         border: none;
-        box-sizing: border-box;
+        
     }
 
     .course_card__title_wrapper {
@@ -80,6 +87,11 @@
 
     .course_card__link {
         font-size: 18px;
+    }
+    .courses_empty{
+        width: 16px;
+        height: 100%;
+        background-color: color;
     }
 
     .promo_second {
