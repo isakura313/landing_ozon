@@ -1,0 +1,25 @@
+.promo{
+    background-image: url('../images/promo_img.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 708px;
+    color: white;
+}
+
+.promo_wrapper {
+    margin-left: 7%;
+    padding-top: 7%;
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 125%;
+}
+
+.promo_wrapper__button {
+    background-color: blue;
+    color: white;
+    border-radius: 10%;
+    padding: 3%;
+}
