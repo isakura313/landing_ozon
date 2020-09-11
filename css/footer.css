@@ -23,6 +23,15 @@
     background-repeat: no-repeat;
 }
 
+.footer__tagline {
+    font-family: var(--main-font);
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    color: #001A34;
+    display: none;
+}
+
 .copyright {
     width: 26%;
 }

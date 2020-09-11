@@ -191,6 +191,11 @@
         height: 50px;
     }
 
+    .footer__tagline {
+        display: inline;
+        margin: 0;
+    }
+
     .copyright__text {
         color: #001A34;
         font-size: 16px;
