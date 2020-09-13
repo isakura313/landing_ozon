@@ -1,9 +1,10 @@
 .classes {
-    padding: 2px 27% 2px 27%;
+    padding: 2px 5% 2px 5%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     column-gap: 4%;
+
 
 }
 
@@ -15,53 +16,63 @@
     margin: 35px;
 
 }
+.classes_card {
+    border-radius: 4%;
+    box-shadow: 2px 2px 20px 0 rgb(233, 238, 241);
+
+}
+.classes_card_wrap {
+    padding: 32px 24px 32px 24px;
+    border-radius: inherit;
+    box-shadow: inherit;
 
 
-.classes_card__logo_laptop{
-    background-image: url('images/course_notebook.png');
+}
+
+.classes_card__logo {
     background-size: cover;
     background-repeat: no-repeat;
     height:173px;
-    border-radius: 5%;
+    border-radius: inherit;
+    box-shadow: inherit;
 
+}
+
+.classes_card__logo_laptop{
+    background-image: url('images/course_notebook.png');
 }
 
 .classes_card__logo_keyboard{
     background-image: url('images/course_keyboards.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:173px;
-    border-radius: 5%;
-
 }
 
 
 .classes_card__logo_buttons {
+
     background-image: url('images/course_buttons.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:173px;
-    border-radius: 5%;
 
 }
 
 .classes__title {
+    font-size: 22px;
     font-weight: bold;
-    padding: 10px 0 10px 0;
+    padding: 0px 0 16px 0;
 
 }
 
 .classes__text {
-    font-size: 15px;
-    padding: 10px 0 10px 0;
+    font-size: 16px;
+    padding: 0px 0 24px 0;
 }
 
 .classes__a {
     text-decoration: none;
+    font-size: 18px;
+    color: #005BFF;
 
 }
 
 .classes__a:visited {
-    color:black;
+    color: #005BFF;
     text-decoration:none;
 }

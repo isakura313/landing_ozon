@@ -2,13 +2,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 2%;
 }
 
 .header__logo {
     display: flex;
     background-image: url('images/Logo.png');
     height: 58px;
-    width:181px;
+    width: 181px;
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -32,4 +33,5 @@
 
 .header__tagline {
     font-size: 26px;
+    margin: 0;
 }

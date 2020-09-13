@@ -5,6 +5,7 @@
     background-size: cover;
     height:700px;
 
+
 }
 
 .promo_modification_position {
@@ -14,21 +15,21 @@
 
 .promo__title {
     color: white;
-    font-size: 55px;
+    font-size: 50px;
     font-weight: bold;
 }
 .promo__text {
 
     color: white;
-    font-size:22px;
+    font-size:20px;
 }
 
 .promo__button {
     color:white;
     border-radius: 10px;
     background-color: #005BFF;
-    font-size: 20px;
-    width: 35%;
+    font-size: 18px;
+    width: 38%;
     padding: 3% 0 3% 0;
     border:0px;
 
