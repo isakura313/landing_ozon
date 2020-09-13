@@ -1,0 +1,9 @@
+@import 'header.css';
+@import 'promo.css';
+@import 'cards.css';
+
+* {font-family: 'Noto Serif', serif;}
+
+body {
+    margin: 2% 5% 2% 5%;
+}
