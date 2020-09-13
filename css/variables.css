@@ -1,0 +1,24 @@
+.wrapper {
+    margin: 0 auto 0 auto;
+    width: 90%;
+    max-width: 1416px;
+}
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+:root {
+    --main-text-color: #001A34;
+    --main-textlight-color: #33475C;
+    --main-promotext-color: #FFFFFF;
+    --main-btnlight-color: #2F80ED;
+    --main-btndark-color: #005BFF;
+    --main-bglight-color: #EFF3F6;
+    --main-bgdark-color: #333333;
+    --main-formdark-color: #1A3047;
+    --main-formlight-color: #667585;
+    --main-cardborder-color: #E9EEF1;
+    --main-formborder-color: #B2BAC2;
+    --main-danger-color: #F81155;
+}
