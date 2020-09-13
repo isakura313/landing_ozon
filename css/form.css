@@ -1,0 +1,110 @@
+.form {
+    background-color: var(--main-bglight-color);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    color: var(--main-text-color);
+}
+
+.form__title {
+    font-size: 44px;
+    line-height: 54px;
+    letter-spacing: 0.8px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 64px;
+}
+
+.form__application {
+    display: flex;
+    flex-direction: column;
+    width: 29%;
+    color: var(--main-formdark-color);
+}
+
+.form__application_input,
+.form__application_select,
+.form__application_textarea {
+    margin-bottom: 32px;
+}
+
+.form__application_input{
+    padding: 20px 16px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid var(--main-formborder-color);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.7px;
+}
+
+.form__application_input::placeholder{
+    color: var(--main-formdark-color);
+    opacity: 1;
+    font-weight: 600;
+}
+
+.form__application_select {
+    padding: 20px 16px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid var(--main-formborder-color);
+    font-weight: 600;
+    color: var(--main-formlight-color);
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.7px;
+    opacity: 1;
+    appearance: none;
+    background-image: url(../images/Icons/select_btn.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.form__application_select_item_disabled {
+    display: none;
+}
+
+.form__application_select_item {
+    color: var(--main-formdark-color);
+}
+
+.form__application_textarea{
+    padding: 20px 16px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid var(--main-formborder-color);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.7px;
+}
+
+.form__application_textarea::placeholder{
+    color: var(--main-formlight-color);
+    opacity: 1;
+}
+
+.form__application_btn {
+    margin-top: 32px;
+    margin-bottom: 80px;
+    width: 253px;
+    height: 64px;
+    color: var(--main-promotext-color);
+    background-color: var(--main-btndark-color);
+    border: 0px;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.7px;
+    align-self: center;
+}
+
+.form__application_btn:hover {
+    cursor: pointer;
+    transition: all 0.5s;
+    color: var(--main-danger-color);
+    background: white;
+}

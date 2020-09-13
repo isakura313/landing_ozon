@@ -85,7 +85,40 @@
             </div>
         </div>
     </div>
-
     </div>
+
+    <div class="form">
+        <h3 class="form__title">Оставить заявку <br>на бесплатное пробное занятие</h3>
+        <form action="index.php" class="form__application" method="">
+            <input type="text" class="form__application_input" name="city" placeholder="Город">
+            <input type="phone" class="form__application_input" name="phone" placeholder="+7">
+            <input type="email" class="form__application_input" name="email" placeholder="E-mail">
+            <input type="text" class="form__application_input" name="name" placeholder="Имя">
+            <input type="text" class="form__application_input" name="surname" placeholder="Фамилия">
+            <select name="courses" id="select" class="form__application_select">
+                <option value="none" class="form__application_select_item_disabled"disabled selected>Выберите курс</option>
+                <option value="analytics" class="form__application_select_item">Бизнес-аналитика</option>
+                <option value="python" class="form__application_select_item">Python 18+</option>
+                <option value="frontend" class="form__application_select_item">Frontend-разработчик</option>
+            </select>
+            <textarea name="comment" id="" cols="30" rows="10" class="form__application_textarea" placeholder="Комментарий"></textarea>
+            <button type='submit' class="form__application_btn">Отправить заявку</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__logo"></div>
+            <p class="footer__text">© 2019 ООО «Интернет Решения». Все права защищены. <br>Москва, Пресненская наб., 10, блок С <br>ons@ozon.ru</p>
+            <div class="footer__social">
+                <a href='#' class="footer__social_item footer__social_item_instagram"></a>
+                <a href='#' class="footer__social_item footer__social_item_fb"></a>
+                <a href='#' class="footer__social_item footer__social_item_vk"></a>
+                <a href='#' class="footer__social_item footer__social_item_youtube"></a>
+            </div>
+            <div class="footer__logo_second"></div>
+        </div>
+    </footer>
+
 </body>
 </html>
