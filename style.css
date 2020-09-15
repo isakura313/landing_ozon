@@ -1,6 +1,10 @@
 @import 'header.css';
 @import 'promo.css';
 @import 'cards.css';
+@import "promo2.css";
+@import "advantages.css";
+@import "request.css";
+@import 'footer.css';
 
 * {font-family: 'Noto Serif', serif;}
 

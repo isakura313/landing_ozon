@@ -1,0 +1,13 @@
+.promo2 {
+    background-image: url('images/promo_second.png');
+    margin: 100px 0 0 0;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.promo2_position {
+    padding: 12% 5% 17% 60%;
+    width: 35%;
+}

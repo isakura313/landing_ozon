@@ -8,7 +8,7 @@
 
 }
 
-.promo_modification_position {
+.promo_position {
     padding: 12% 52% 18% 8%;
     width: 35%;
 }
@@ -17,11 +17,13 @@
     color: white;
     font-size: 50px;
     font-weight: bold;
+    margin-bottom: 18px;
 }
 .promo__text {
 
     color: white;
     font-size:20px;
+    margin-bottom: 30px;
 }
 
 .promo__button {
