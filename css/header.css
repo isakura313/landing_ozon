@@ -30,3 +30,13 @@
 .logo_second{
     font-size: 22px;
 }
+.adaptive_menu{
+    display: none;
+}
+.see_helper{
+    display: flex !important;
+    width: 50%;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+}
