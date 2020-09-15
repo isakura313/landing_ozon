@@ -1,0 +1,77 @@
+body 
+{ 
+    font-family: 'Raleway', sans-serif; 
+} 
+.promo_second 
+{ 
+    background-image: url(/../images/promo_second.png); 
+    background-repeat: no-repeat; 
+    background-position-x: center; 
+    background-size: contain; 
+    height: 630px; 
+    margin-top: 150px; 
+} 
+.box_promo_second 
+{ 
+    display: flex; 
+    flex-direction: column; 
+    padding: 0px;  
+    width: 40%; 
+    margin-left: 57%; 
+} 
+.promo_second_title 
+{ 
+    display: flex; 
+    flex-direction: column; 
+    padding: 0px; 
+ 
+    font-style: normal; 
+    font-weight: bold; 
+    font-size: 58px; 
+    line-height: 68px; 
+    margin-top: 30%; 
+    margin-bottom: 0; 
+    color: #FFFFFF; 
+} 
+.promo_second_text 
+{ 
+    font-style: normal; 
+    font-weight: 300; 
+    font-size: 22px; 
+    line-height: 32px; 
+    /* identical to box height, or 133% */ 
+ 
+    letter-spacing: 0.6px; 
+    color: #FFFFFF; 
+} 
+.promo_second_butt 
+{ 
+    display: flex; 
+    flex-direction: column; 
+    padding: 22px 32px; 
+    align-self: auto; 
+    width: 50%; 
+    border: 0; 
+    background: #005BFF; 
+    border-radius: 8px; 
+    margin-top: 15px; 
+    font-size: 20px; 
+} 
+.promo_second_butt_text 
+{ 
+    font-style: normal; 
+    font-weight: normal; 
+    font-size: 22px; 
+    line-height: 20px; 
+    /* identical to box height, or 91% */ 
+ 
+    text-align: center; 
+    letter-spacing: 0.7px; 
+ 
+    color: #FFFFFF; 
+ 
+    flex: none; 
+    order: 0; 
+    align-self: center; 
+    margin: 0px 0px; 
+}

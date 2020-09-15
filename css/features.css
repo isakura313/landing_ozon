@@ -1,0 +1,38 @@
+.line_plus
+{
+    display: flex ;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 15%;
+}
+.plus_card
+{
+    display: flex ;
+    flex-flow: column;
+    width: 250px;
+    height: 300px;
+    align-items: center;
+    text-align: center;
+}
+.plus_card_head
+{
+    font-size: 24px;
+}
+.plus_card_text
+{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+    width: 80%;
+    /* or 144% */
+    margin-top: 0;
+    text-align: center;
+    letter-spacing: 0.4px;
+
+    /* Dark space / 80 */
+
+    color: #33475C;
+}
