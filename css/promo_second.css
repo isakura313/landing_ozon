@@ -1,0 +1,53 @@
+.promo_second
+{
+    background-image: url(/landing_ozon/images/promo_second.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: contain;
+    height: 650px;
+}
+.promo_second__text
+{
+    display: flex;
+    flex-direction: column;
+    padding: 0px; 
+    width: 35%;
+    margin-left: 60%;
+}
+.promo_second__title
+{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 68px;
+    margin-top: 30%;
+    margin-bottom: 0;
+    color: #FFFFFF;
+}
+.promo_second__main_text
+{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.6px;
+    color: #FFFFFF;
+}
+.promo_second__button
+{
+    background-color: #005BFF;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    width: 50%;
+    height: 60px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}

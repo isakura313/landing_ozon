@@ -1,0 +1,41 @@
+.pros_head{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 45px;
+    font-family: 'Raleway', sans-serif;
+}
+.pros_cards
+{
+    display: flex ;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.pros_card
+{
+    display: flex ;
+    flex-flow: column;
+    width: 250px;
+    height: 300px;
+    align-items: center;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+.pros_card__head
+{
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+}
+.pros_card__text
+{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+    width: 80%;
+    margin-top: 0;
+    text-align: center;
+    letter-spacing: 0.4px;
+    font-family: 'Raleway', sans-serif;
+    color: #33475C;
+}
