@@ -1,5 +1,5 @@
 .features{
-    margin: 80px 12% 134px 12%;
+    margin: 80px 14% 134px 14%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 0px;
@@ -48,7 +48,7 @@
 }
 
 .features_card__title{
-    font-size: 24px;
+    font-size: 20px;
     font-family: var(--main-font);
     margin: 20px 0 0px 0;
 }
