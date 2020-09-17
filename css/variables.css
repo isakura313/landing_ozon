@@ -1,3 +1,10 @@
 .wrapper{
-    margin: 2% 6% 0 6%;
+    margin: 2% 10% 0 10%;
+}
+:root{
+    --main-font: "Montserrat";
+    --main-bg-color: #005BFF;
+    --main-bg-dark: #333333;
+    --main-second-grey: #FFFFFF;
+    --main-danger-color: #eb5757;
 }
