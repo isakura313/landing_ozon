@@ -1,5 +1,6 @@
 .wrapper{
-    margin: 2% 10% 0 10%;
+    margin: 0 auto;
+    max-width: 1416px;
 }
 :root{
     --main-font: "Montserrat";

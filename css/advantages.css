@@ -4,7 +4,7 @@
     grid-template-columns: repeat(4, 1fr);
     column-gap: 4%;
 }
-.advantage__title{
+.advantages__title{
     grid-column: 1/5;
     text-align: center;
     font-family: var(--main-font);
