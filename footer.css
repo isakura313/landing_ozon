@@ -1,0 +1,73 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #001A34;
+    height: 200px;
+    padding: 0 5% 0 5%;
+}
+
+.footer__logo {
+    background-image: url('images/Logo2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 60px;
+    width: 181px;
+
+}
+
+.footer__copyrights {
+    color: white;
+    font-size: 14px;
+}
+
+.footer__socialnet {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width:190px;
+  
+
+}
+
+.footer__socialnet_insta{
+    background-image: url('images/Icons/Insta.svg');
+    background-repeat: no-repeat;
+    width: 40px;
+    padding: 5px;
+}
+.footer__socialnet_fb{
+    background-image: url('images/Icons/Facebook.svg');
+    background-repeat: no-repeat;
+    width: 40px;
+    padding: 5px;
+}
+.footer__socialnet_vk{
+    background-image: url('images/Icons/VK.svg');
+    background-repeat: no-repeat;
+    width: 40px;
+    padding: 5px;
+}
+.footer__socialnet_yotube{
+    background-image: url('images/Icons/Youtube.svg');
+    background-repeat: no-repeat;
+    width: 40px;
+    padding: 5px;
+}
+
+.footer__ozonlogo {
+    background-image: url('images/Ozon_logo.png');
+    background-repeat: no-repeat;
+    width: 107px;
+    height: 30px;
+}
+
+
+    /*<div class='footer'>
+    <div class="footer__logo"></div>
+    <div class="footer__copyrights">© 2019 ООО «Интернет Решения». Все права защищены.
+        Москва, Пресненская наб., 10, блок С
+        ons@ozon.ru</div>
+    <div class='footer__socialnet-logos'></div>
+    <div class="footer_ozonlogo"></div>
+</div> */

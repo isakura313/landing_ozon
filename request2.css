@@ -1,7 +1,7 @@
-.forms__input_positioning::-webkit-input-placeholder {color:#000000; opacity:1;} /*изменить цвет placeholder*/
-.forms__input_positioning::-moz-placeholder          {color:#000000; opacity:1;} /*изменить цвет placeholder мозилле*/
-textarea:-moz-placeholder { color: gray; }
-textarea::-webkit-input-placeholder { color: gray; }
+.forms__input::-webkit-input-placeholder {color:#000000; opacity:1;} /*изменить цвет placeholder*/
+.forms__input::-moz-placeholder          {color:#000000; opacity:1;} /*изменить цвет placeholder мозилле*/
+.forms__select::-moz-placeholder { color: gray;opacity: 1;} /* печалька: не работает :-(( */
+.forms__select::-webkit-input-placeholder { color: gray;opacity: 1;} /* печалька: не работает :-(( */
 :focus::-webkit-input-placeholder {opacity:0;}/* убирает плейсхолдер при нажатии */
 :focus::-moz-placeholder          {opacity:0;}/* убирает плейсхолдер при нажатии в мозилле */
 
@@ -51,14 +51,9 @@ textarea::-webkit-input-placeholder { color: gray; }
         border-color: #ccc;
         border-radius: 5px;
         padding: 0 0 0 18px;
-        color: gray; /*изменяет цвет плейсхолдера и элементов выбора */
-
     }
  
-    .forms__select option{
-        color: black /*изменить цвет элементов выбора при выборе*/
-    }
-
+  
 
     .forms__comments {
         margin-bottom: 30px;

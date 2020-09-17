@@ -5,6 +5,7 @@
     justify-content: space-between;
     column-gap: 3%;
     padding: 0 20% 0 20%;
+    margin-bottom: 80px;
 
 }
 .advantages__maintitle {
@@ -45,13 +46,13 @@
 
 .advantages-card__header {
     margin: 30px 0 16px 0;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: bold;
     text-align: center;
 }
 
 .advantages-card__text {
-    font-size: 15px;
+    font-size: 14px;
     color: #33475C;
     text-align: center;
 
