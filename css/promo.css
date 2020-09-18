@@ -24,7 +24,26 @@
     margin: 0 0 32px 0;
     font-weight: 300;
 }
+@keyframes fatter{
+    0%{
+        transform:scale(0);
+    }
+    100%{
+        transform:scale(1);
+        opacity: 1;
+    }
+}
+
 .promo_wrapper__btn{
+    opacity: 0;
+    animation-name: fatter;
+    animation-delay: 0.3s;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode:forwards; 
+
+    /* forwards для того, чтобы остаться в том же состоянии */
     color: inherit;
     font-size: 20px;
     font-family: var(--main-font);

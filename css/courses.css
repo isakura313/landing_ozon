@@ -5,6 +5,16 @@
     column-gap: 4%;
 }
 
+@keyframes flip-horizontal-bottom {
+    0% {
+      transform: rotateX(0);
+    }
+    100% {
+      transform: rotateX(-180deg);
+    }
+  }
+  
+
 .courses__title{
     grid-column: 1/4;
     text-align: center;
@@ -16,7 +26,12 @@
 .course_card{
     box-shadow: 2px 2px 20px #E9EEF1;
     margin: 20px;
-    
+    animation-name:flip-horizontal-bottom;
+    animation-duration:  0.5s;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+    animation-direction:  linear;
+    animation-fill-mode:  backwards;
 }
 /* .course_card:nth-child(3){
     margin-right: 16px;
@@ -39,6 +54,8 @@
     background-image: url('../images/course_keyboards.png');
 
 }
+
+
 .course_card__img_buttons{
     background-image: url('../images/course_buttons.png');
 }
