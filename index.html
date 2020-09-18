@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ozon New Skills</title>
+    <meta name="keywords" content="академия, курсы, учеба, Python">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+    <script src="code.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="logo"></div>
+            <nav class="nav">
+                <a href="#" class="nav__a">Бизнес-аналитика</a>
+                <a href="#" class="nav__a">Python 18+</a>
+                <a href="#" class="nav__a">Frontend-разработчик</a>
+            </nav>
+            <h5 class="logo_second"> Это вам не Школа!</h5>
+        </header>
+
+        <div class="promo">
+            <div class="promo_wrapper">
+                <h1 class="promo_wrapper__title">Ozon New Skills</h1>
+                <p class="promo_wrapper__text">Поможем получить и прокачать навыки,
+                    которые будут полезны в текущей карьере
+                    или дадут старт новой!</p>
+                    <button class="promo_wrapper__btn">Выбрать курс</button>
+            </div>
+        </div>
+        <div class="courses">
+            <h3 class="courses__title">Наши курсы</h3>
+
+            <div class="cource_card">
+                <div class="cource_card__img cource_card__img_notebooks"></div>
+                <div class="course_card_wrapper">
+                    <h5 class="cource_card__title">Бизнес-аналитика</h5>
+                    <p class="course_card__text">Изучение основных инструментов и механизмов бизнес-аналитики</p>
+                    <a href="#" class="course_card__link">Узнать больше</a>
+                </div>
+            </div>
+
+            <div class="cource_card">
+                <div class="cource_card__img cource_card__img_keyboards"></div>
+                <div class="course_card_wrapper">
+                    <h5 class="cource_card__title">Python 18+</h5>
+                    <p class="course_card__text">Основы программирования и знакомство с возможностями языка Python</p>
+                    <a href="#" class="course_card__link">Узнать больше</a>
+                </div>
+            </div>
+
+            <div class="cource_card">
+                <div class="cource_card__img cource_card__img_buttons"></div>
+                <div class="course_card_wrapper">
+                    <h5 class="cource_card__title">Frontend-разработчик</h5>
+                    <p class="course_card__text">Курс для новичков, которые хотят начать свой путь в Frontend-разработке</p>
+                    <a href="#" class="course_card__link">Узнать больше</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="wrapper">
+
+    <div class="promo_second">
+        <div class="promo_second_wrapper">
+            <h1 class="promo_second_wrapper__title">Сложно
+                определиться?</h1>
+            <p class="promo_second_wrapper__text">Оставьте контактные данные
+                и наши специалисты помогут понять,
+                что вам ближе!</p>
+                <button class="promo_second_wrapper__btn">Оставить заявку</button>
+        </div>
+    </div>
+                <div class="features">
+                    <h3 class="features__title">Преимущества</h3>
+                <div class="features_card">
+                    <div class="features_card__img features_card__img_cup"></div>
+                    <div class="features_card_wrapper">
+                        <h5 class="features_card__title">Лидерство</h5>
+                        <p class="features_card__text">Образовательный проект от лидера российского e-com</p>
+                    </div>
+                </div>
+                <div class="features_card">
+                    <div class="features_card__img features_card__img_expert"></div>
+                    <div class="features_card_wrapper">
+                        <h5 class="features_card__title">Экспертиза</h5>
+                        <p class="features_card__text">Преподаватели
+                            с уникальным опытом</p>
+                    </div>
+                </div>
+                <div class="features_card">
+                    <div class="features_card__img features_card__img_human"></div>
+                    <div class="features_card_wrapper">
+                        <h5 class="features_card__title">Актуальность</h5>
+                        <p class="features_card__text">Погружение в мир современных профессий</p>
+                    </div>
+                </div>
+                <div class="features_card">
+                    <div class="features_card__img features_card__img_clock 2"></div>
+                    <div class="features_card_wrapper">
+                        <h5 class="features_card__title">Кураторы</h5>
+                        <p class="features_card__text">Поддержка преподавателя и куратора на всех этапах обучения</p>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div class="form_wrapper">
+        <h3 class="form_wraper_h3">Оставить заявку </br> на бесплатное пробное занятие</h3>
+        <form action="index.php" class="application">
+            <input type="text" class="application__input" name="city" placeholder="Город">
+            <input type="tel" class="application__input" name="tel" placeholder="+7">
+            <input type="email" class="application__input" name="email" placeholder="E-mail">
+            <input type="text" class="application__input" name="name" placeholder="Имя">
+            <input type="text" class="application__input" name="surname" placeholder="Фамилия">
+            <select name="" id="" class="application__select">
+                <option value="" disabled selected class="application__option_disabled">Выберите курс</option>
+                <option value="" class="application__option">Бизнес-аналитика</option>
+                <option value="" class="application__option">Python 18+</option>
+                <option value="" class="application__option">Frontend-разработчик</option>
+            </select>
+            <textarea name="" id="" cols="20" rows="5" class="application__textarea" placeholder="Комментарий"></textarea>
+            <button type="submit" class="application__submit">Отправить заявку</button>
+        </form>
+    </div>
+    <footer class="footer">
+        <div class="footer-wrapper">
+          <div class="footer-logo"></div>
+          <p class="footer__tagline">Ozon <br> New Skills</p>
+          <div class="copyright">
+            <p class="copyright__text">© 2019 ООО «Интернет Решения». Все права защищены. Москва, Пресненская наб., 10, блок С ons@ozon.ru</p>
+          </div>
+          <div class="sm">
+            <a href="#" class="sm__link"><img src="images/Icons/Insta.svg" alt=""></a>
+            <a href="#" class="sm__link"><img src="images/Icons/Facebook.svg" alt=""></a>
+            <a href="#" class="sm__link"><img src="images/Icons/VK.svg" alt=""></a>
+            <a href="#" class="sm__link"><img src="images/Icons/Youtube.svg" alt=""></a>
+          </div>
+          <div class="footer-second-logo"></div>
+        </div>
+    </footer>
+  </body>
+</html>
