@@ -16,7 +16,7 @@
 .promo_second_wrapper__title{
     font-size: 55px;
     font-family: var(--main-font);
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
     margin-bottom: 16px;
 }
 .promo_second_wrapper__text{
@@ -25,7 +25,6 @@
     line-height: 1.4;
     margin: 0 0 32px 0;
     font-weight: 300;
-    letter-spacing: 0.6px;
 }
 .promo_second_wrapper__btn{
     color: inherit;
@@ -38,7 +37,7 @@
     border-radius: 8px;
     letter-spacing: 0.8px;
 }
-.promo_wrapper__btn:hover{
+.promo_second_wrapper__btn:hover{
     cursor:pointer;
     transition: all 0.5s;
     color: var(--main-danger-color);
