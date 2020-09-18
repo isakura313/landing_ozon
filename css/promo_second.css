@@ -1,0 +1,45 @@
+.promo_second{
+    background-image: url('../images/promo_second.png');
+    height: 708px;
+    background-size: cover;
+    background-repeat: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.promo_second_wrapper{
+    color:white;
+    width: 27%;
+    padding-left: 45%;
+}
+.promo_second_wrapper__title{
+    font-size: 55px;
+    font-family: var(--main-font);
+    letter-spacing: 1px;
+    margin: 45px 0px 16px;
+}
+.promo_second_wrapper__text{
+    font-size: 22px;
+    font-family: var(--main-font); 
+    line-height: 1.5;
+    margin: 0 0 32px 0;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+}
+.promo_second_wrapper__button{
+    color: inherit;
+    font-size: 18px;
+    font-family: var(--main-font);
+    background-color: var(--second-bg-color); 
+    border: 0;
+    font-weight: 500;
+    padding: 20px 18px;
+    border-radius: 8px;
+    letter-spacing: 0.8px;
+}
+.promo_second_wrapper__button:hover{
+    cursor:pointer;
+    transition: all 0.5s;
+    color: var(--main-danger-color);
+    background: white;
+}

@@ -1,0 +1,53 @@
+.advantages{
+    margin: 80px 8% 134px 8%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 4%;
+}
+.advantages__title{
+    grid-column: 1/5;
+    text-align: center;
+    font-family: var(--main-font);
+    font-size: 46px;
+    margin-top: 0;
+    margin-bottom: 64px;
+}
+.advantage_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.advantage_card__img{
+    width: 72px;
+    height: 56px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.advantage_card__img_lidership{
+    background-image: url(../images/Icons/cup.svg);
+}
+.advantage_card__img_expertise{
+    background-image: url(../images/Icons/Expert.svg);
+}
+.advantage_card_actual{
+    background-image: url(../images/Icons/clock\ 2.svg);
+}
+.advantage_card_curators{
+    background-image: url(../images/Icons/human.svg);
+}
+.advantage_card__title{
+    margin: 32px 0 0 0;
+    font-size: 24px;
+    font-family: var(--main-font);
+    letter-spacing: 0.6px;
+}
+.advantage_card__text{
+    text-align: center;
+    color: var(--second-bg-dark);
+    font-family: var(--main-font);
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 18px;
+    margin-top: 16px 0 0 0;
+}

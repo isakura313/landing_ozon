@@ -6,7 +6,7 @@
 .logo{
     background-image: url('../images/Logo.png');
     height: 58px;
-    width:182px;
+    width:181px;
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -16,7 +16,7 @@
     justify-content: space-around;
 }
 .nav__a{
-    font-size: 18px;
+    font-size: 16px;
     color:black;
     text-decoration: none;
     font-family: var(--main-font);
@@ -25,4 +25,5 @@
 }
 .logo_second{
     font-size: 22px;
+    font-family: var(--main-font);
 }
