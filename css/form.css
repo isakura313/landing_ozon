@@ -7,7 +7,7 @@
 }
 .form_wraper_h3{
     font-family: var(--main-font);
-    font-size: 46px;
+    font-size: 54px;
     letter-spacing: 0.8px;
     margin-top: 80px;
 
@@ -24,14 +24,40 @@
 .application__submit{
     margin-bottom: 32px;
 }
-.application__input{
+.application__input,
+.application__select{
     padding: 20px 16px;
     border-radius: 5px;
     outline:none;
     border: 2px solid #B2BAC2;
     font-family: var(--main-font);
+    background-color: var(--main-second-grey);
 }
 .application__input::placeholder{
     color: black;
     opacity: 1;
+}
+
+.application__submit_btn{
+    color: white;
+    font-size: 20px;
+    font-family: var(--main-font);
+    background-color: var(--main-bg-color); 
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--main-bg-color);
+    font-weight: 300;
+    padding: 20px 18px;
+    border-radius: 8px;
+    letter-spacing: 0.8px;
+    margin-top: 10%;
+    margin-bottom: 20%;
+
+}
+.application__submit_btn:hover{
+    cursor:pointer;
+    transition: all 0.5s;
+    color: var(--main-danger-color);
+    background: white;
+    border-color: black;
 }
