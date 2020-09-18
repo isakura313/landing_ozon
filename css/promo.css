@@ -1,0 +1,45 @@
+.photo_promo{
+    background-image: url("../images/promo_img.png");
+    height: 700px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+.photo_promo__text{
+
+    display: flex;
+    width: 35%;
+    margin: 10%;
+    margin-top: 20%;
+    height: 100%;
+    flex-flow: column;
+}
+.photo_promo__text__title{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin: 0;
+
+}
+.photo_promo__text__maintext{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.1px;
+}
+.photo_promo__button{
+    background-color: #005BFF;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    width: 40%;
+    height: 15%;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
