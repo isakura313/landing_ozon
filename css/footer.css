@@ -1,0 +1,28 @@
+.footer {
+    height: 220px;
+    background-color: #001A34;
+    display: flex;
+    align-items: center;
+    padding: 3% 4% 3% 7%;
+    box-sizing: border-box;
+}
+.footer_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.company{
+    width: 35%;
+}
+.company__text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+    margin: 0;
+}
+.social_links{
+    display: flex;
+    gap: 15px;
+}
