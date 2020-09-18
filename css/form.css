@@ -1,0 +1,114 @@
+.form_wrapper{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--main-second-grey);
+}
+.form_wraper_h3{
+    font-family: var(--main-font);
+    font-size: 46px;
+    letter-spacing: 0.8px;
+    margin-top: 80px;
+
+    text-align: center;
+    line-height: 1.4;
+}
+.application{
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+}
+.application__input,
+.application__select,
+.application__submit{
+    margin-bottom: 32px;
+}
+.application__input{
+    padding: 20px 16px;
+    border-radius: 6px;
+    outline: none;
+    border: 2px solid #B2BAC2;
+    font-family: var(--main-font);
+}
+.application__input::placeholder{
+    color: #1A3047;
+    opacity: 1;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+}
+
+.application__input:focus::placeholder {
+    color: #B2BAC2;
+}
+
+.application__input:focus {
+    border: 2px solid var(--main-bg-color);
+}
+
+.application__textarea {
+    margin-bottom: 64px;
+    padding: 20px 16px;
+    border-radius: 6px;
+    outline: none;
+    border: 2px solid #B2BAC2;
+    font-family: var(--main-font)
+}
+
+.application__select {
+    padding: 20px 16px;
+    border-radius: 6px;
+    outline: none;
+    border: 2px solid #B2BAC2;
+    font-family: var(--main-font);
+    color: #B2BAC2;
+    opacity: 1;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+}
+
+.application__select:focus {
+    color: black;
+}
+
+select {
+    background: url(../images/Icons/arrow.png) no-repeat white;
+    appearance: none;
+    background-position-x: 95%;
+    background-position-y: 50%;
+}
+
+.application__option_disabled {
+    display: none;
+}
+
+.application__option {
+    color: #1A3047;
+    opacity: 1;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+}
+
+.application__textarea::placeholder{
+    color: #667585;
+    opacity: 1;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+}
+
+.application__submit {
+    width: 253px;
+    height: 64px;
+    background-color: var(--second-bg-color);
+    font-family: var(--main-font);
+    color: white;
+    font-size: 22px;
+    border-radius: 8px;
+    border: none;
+    letter-spacing: 0.7px;
+    margin: 0 auto 80px auto;
+}
+
+.application__submit:hover {
+    cursor: pointer;
+}
