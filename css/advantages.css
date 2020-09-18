@@ -1,5 +1,5 @@
 .advantages{
-    margin: 80px 8% 134px 8%;
+    margin: 80px 8%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 4%;
