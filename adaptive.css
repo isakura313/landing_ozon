@@ -1,0 +1,270 @@
+@media screen and (max-width: 812px) {
+
+
+    /* header adaptation start */
+    body {
+        margin: 0 0 0 0;
+    }
+    .header__logo {
+        height: 38px;
+        margin: 3% 0 0 0;
+    }
+    
+    
+    .header__nav, .header__a, .header__tagline {
+        display: none;
+    }
+
+    /* header adaptation end */
+    /* promo adaptation start */
+    .promo {
+        background-image: url('images/promo_mobile.png');
+        margin: 0 0 0 0;
+    }
+    
+    .promo_position {
+        padding: 110% 15% 0 15px;
+        width: auto;
+    }
+    
+    .promo__title {
+        font-size: 35px;
+    }
+
+    .promo__text {
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+    
+    .promo__button {
+        font-size: 17px;
+        height: 50px;
+        width: 350px;    
+    }
+  
+    /* promo adaptation end */
+    /* cards adaptation start */
+    .classes {
+        margin: 0 0 0px 15px;
+        overflow: scroll;
+        padding: 0px;
+        column-gap: 7%;
+    }
+    .classes-maintitle {
+        font-size: 30px;
+    
+    }
+    .classes_card {
+        border-radius: 4%;
+        box-shadow: 2px 2px 20px 0 rgb(233, 238, 241);
+        margin-bottom: 15px;
+    
+    }
+    .classes_card_wrap {
+        padding: 32px 24px 32px 24px;
+    
+    }
+    .classes_card__logo {
+        width: 300px;  
+        height:173px;
+    }
+    .classes_card__logo_laptop{
+        background-image: url('images/course_notebook.png');
+    }
+    .classes_card__logo_keyboard{
+        background-image: url('images/course_keyboards.png');
+    }
+    .classes_card__logo_buttons {
+        background-image: url('images/course_buttons.png');
+    }
+    .classes__title {
+        font-size: 20px;
+        font-weight: bold;
+        padding: 0px 0 16px 0;
+    }
+    .classes__text {
+        font-size: 14px;
+        padding: 0px 0 24px 0;
+    }
+    .classes__a {
+        font-size: 16px;
+    }
+
+    /* cards adaptation end */
+
+    /* second promo adaptation start */
+    .promo2 {
+        background-image: url('images/promo_second_mobile.png');
+        margin:35px 0 0 0;
+    }
+    
+    .promo2_position {
+        padding: 105% 17% 0 15px;
+        width: auto;
+    }
+
+    /* second promo adaptation end */
+    /* advantages adaptation start */
+
+    .advantages {
+       margin: 0;
+        column-gap: 7%;
+        padding: 0 0 0 15px;
+        overflow: scroll;
+        margin-bottom: 50px;
+    }
+
+    .advantages-maintitle {
+        font-size: 30px;
+        margin: 35px;
+    }
+    
+
+    .advantages-card {
+        border-radius: 4%;
+        box-shadow: 1px 0px 13px 4px rgb(233, 238, 241);
+        border: 1px solid;
+        border-color: rgb(233, 238, 241);
+        width: 250px;
+        height: 250px;
+        margin-bottom: 15px;
+    }
+    
+    .advantages-card__logo_cup {
+        background-position: left;
+        margin: 32px 0 0 20px;
+    }
+    .advantages-card__logo_expert {
+        background-position: left;
+        margin: 32px 0 0 20px;
+
+    }   
+    .advantages-card__logo_clock {
+        background-position: left;
+        margin: 32px 0 0 20px;
+
+    }   
+    .advantages-card__logo_tutor {    
+        background-position: left;
+        margin: 32px 0 0 20px;
+
+    }
+    
+    .advantages-card__header {
+        margin: 0;
+        padding: 25px 0 16px 15px;
+        font-size: 20px;
+        text-align: left;
+    }
+    .advantages-card__text {
+        font-size: 14px;
+        padding: 0 15px 0 15px;
+        text-align: left;  
+    }
+    /* advantages adaptation end */
+    /* request adaptation start */
+
+    .request {
+        margin: 0;
+        border-top-width: 50px;
+        border-bottom-width: 50px;
+        border-color: #EFF3F6;
+    }   
+        .request__title {
+            font-size: 30px;
+            text-align: center;
+            align-items: center;
+            margin-bottom: 30px;
+        }        
+        .forms__input{
+            width: 320px;
+    
+            }    
+        .forms__input::placeholder {
+            color: gray;
+        }    
+        .forms__select {
+            height: 59px;
+            width: 340px;
+            color: gray;
+        }    
+        .forms__comments {
+            width: 320px;
+            font-size: 18px;
+        }
+        .forms_comments::placeholder {
+            color: gray;
+        }
+        .forms__submit {
+            font-size: 17px;
+            height: 50px;
+            width: 350px;    
+            padding: 1% 0 1% 0;
+    
+        }
+    /* request adaptation end */
+    /* footer adaptation start */
+    .footer {
+        justify-content: space-around;
+        background-color: white;
+        height: 400px;
+        padding: 0 15px 30px 15px;
+        flex-direction: column;
+    }
+    
+    .footer__logo {
+        background-image: url('images/Logo.png');
+        height: 50px;
+        width: 150px;
+        margin: 20px 0 10px 0;
+    
+    }
+    .footer__tagline {
+        display: inherit;
+    }
+    .footer__copyrights {
+        color: black;
+        font-size: 12px;
+        padding: 0 60px 0 60px;
+        text-align: center;
+    }
+    
+    .footer__socialnet {
+        display: flex;
+        flex-direction: row;
+        height: 40px;
+        width: 190px;
+        
+    }
+    
+    .footer__socialnet_insta{
+        background-image: url('images/insta_adaptive.png');
+        width: 40px;
+        padding: 0 10px 0 0;
+
+    }
+    .footer__socialnet_fb{
+        background-image: url('images/facebook_adaptive.png');
+        width: 40px;
+        padding: 0 10px 0 0;
+    }
+    .footer__socialnet_vk{
+        background-image: url('images/vk_adaptive.png');
+        width: 40px;
+        padding: 0 10px 0 0;
+
+    }
+    .footer__socialnet_yotube{
+        background-image: url('images/youtube_adaptive.png');
+        width: 40px;
+        padding: 0;
+
+    }
+    
+    .footer__ozonlogo {
+        background-image: url('images/logo_adaptive.png');
+        height: 23px;
+    }
+
+    /* footer adaptation end */
+}

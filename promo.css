@@ -3,7 +3,9 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height:700px;
+    height:700px;    
+    margin: 2% 5% 2% 5%
+
 
 
 }
@@ -35,4 +37,8 @@
     padding: 3% 0 3% 0;
     border:0px;
 
+}
+
+.promo__button:hover {
+    background-color: #F81155;
 }

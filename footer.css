@@ -16,6 +16,9 @@
 
 }
 
+.footer__tagline {
+    display:none;
+}
 .footer__copyrights {
     color: white;
     font-size: 14px;

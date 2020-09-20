@@ -5,9 +5,7 @@
 @import "advantages.css";
 @import "request2.css";
 @import 'footer.css';
+@import 'adaptive.css';
 
 * {font-family: 'Noto Serif', serif;}
 
-body {
-    margin: 2% 5% 2% 5%;
-}

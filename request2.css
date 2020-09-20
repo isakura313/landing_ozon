@@ -1,7 +1,6 @@
 .forms__input::-webkit-input-placeholder {color:#000000; opacity:1;} /*изменить цвет placeholder*/
 .forms__input::-moz-placeholder          {color:#000000; opacity:1;} /*изменить цвет placeholder мозилле*/
-.forms__select::-moz-placeholder { color: gray;opacity: 1;} /* печалька: не работает :-(( */
-.forms__select::-webkit-input-placeholder { color: gray;opacity: 1;} /* печалька: не работает :-(( */
+
 :focus::-webkit-input-placeholder {opacity:0;}/* убирает плейсхолдер при нажатии */
 :focus::-moz-placeholder          {opacity:0;}/* убирает плейсхолдер при нажатии в мозилле */
 
@@ -39,7 +38,21 @@
         border-radius: 5px; 
         padding: 0 0 0 20px;
 
-            }
+        }
+
+    .forms__input:focus {
+        border: 2px;
+        border-style: solid;
+        border-color: blue;
+        outline: none;
+        }
+
+    select {
+        background: url(images/Icons/arrow.png) no-repeat white;
+        appearance: none;
+        background-position-x: 95%;
+        background-position-y: 50%;
+        }
 
     .forms__select {
         margin-bottom: 30px;
@@ -51,9 +64,21 @@
         border-color: #ccc;
         border-radius: 5px;
         padding: 0 0 0 18px;
+        color: #ccc;
+        opacity: 1;
     }
- 
+    
+    .forms__option_disabled {
+        display: none;
+    }
   
+    .forms__select:focus {
+        color: black;
+        outline: none;
+        border: 2px;
+        border-style: solid;
+        border-color: blue;
+    }
 
     .forms__comments {
         margin-bottom: 30px;
@@ -66,7 +91,12 @@
         border-radius: 5px; 
         padding: 15px 0 0 20px;
     }
-
+    .forms__comments:focus {
+        outline: none;
+        border: 2px;
+        border-style: solid;
+        border-color:blue;
+    }
     .forms__submit {
         color:white;
         border-radius: 10px;
@@ -76,4 +106,8 @@
         border:0px;
         padding: 1% 0 1% 0;
 
+    }
+
+    .forms__submit:hover {
+        background-color: #F81155;
     }

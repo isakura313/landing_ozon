@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ozon New Skills</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
-    
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png" />
+    <script src="code.js" defer></script>
 </head>
+
 <body>
 
     <header class='header'>
@@ -35,8 +37,9 @@
         </div>   
     </div>
 
+    <h3 class="classes-maintitle"> Наши курсы</h3>
+
     <div class="classes">
-        <h3 class="classes__maintitle"> Наши курсы</h3>
         <div class = "classes_card">
             <div class='classes_card__logo classes_card__logo_laptop'></div>
             <div class='classes_card_wrap'>
@@ -76,8 +79,8 @@
         </div>
     </div>
 
+    <h3 class="advantages-maintitle">Преимущества</h3>
     <div class='advantages'>
-        <h3 class="advantages__maintitle">Преимущества</h3>
 
         <div class="advantages-card">
             <div class="advantages-card__logo advantages-card__logo_cup"></div>
@@ -112,7 +115,7 @@
             <input type='email' name='email' placeholder="E-mail" class="forms__input">
             <input type='text' name='names' placeholder= 'Имя и фамилия' class="forms__input"> 
             <select class='forms__select' name="list" placeholder="Выберите курс">
-                <option  disabled selected>Выберите курс</option>
+                <option  disabled selected class="forms__option_disabled">Выберите курс</option>
                 <option>Бизнес-аналитика</option>
                 <option>Python 18+</option>
                 <option>Frontend-разработчик</option>
@@ -124,6 +127,7 @@
 
     <div class='footer'>
         <div class="footer__logo"></div>
+        <h4 class="footer__tagline">Это вам не Школа!</h4>
         <div class="footer__copyrights">© 2019 ООО «Интернет Решения». Все права защищены. <br>
             Москва, Пресненская наб., 10, блок С <br>
             ons@ozon.ru</div>
