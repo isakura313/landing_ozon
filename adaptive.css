@@ -15,6 +15,14 @@
         display: none;
     }
 
+    .header__sidemenu {
+        display: flex;
+        background-image: url('images/menu-button.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 32px;
+        width: 32px;
+    }
     /* header adaptation end */
     /* promo adaptation start */
     .promo {
