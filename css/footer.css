@@ -3,14 +3,24 @@
     background-color: #001A34;
     display: flex;
     align-items: center;
-    padding: 3% 4% 3% 7%;
+    padding: 86px 4% 76px 7%;
     box-sizing: border-box;
 }
 .footer_wrapper {
     width: 100%;
+    height: fit-content;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    gap: 60px;
+
+}
+.footer_logo{
+    background-image: url("../images/Logo-footer.png");
+    height: 58px;
+    width:182px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .company{
     width: 35%;
@@ -25,4 +35,40 @@
 .social_links{
     display: flex;
     gap: 15px;
+}
+.mobile_text{
+    visibility: hidden;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+.footer_second_logo {
+    background-image: url('../images/Ozon_logo.png');
+    height: 23px;
+    width: 107px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.social_link_insta {
+    width: 39px;
+    height: 39px;
+    background-image: url(../images/Icons/Insta.svg);
+}
+
+.social_link_facebook {
+    width: 39px;
+    height: 39px;
+    background-image: url(../images/Icons/Facebook.svg);
+}
+
+.social_link_vk {
+    width: 39px;
+    height: 39px;
+    background-image: url(../images/Icons/VK.svg);
+}
+
+.social_link_youtube {
+    width: 39px;
+    height: 39px;
+    background-image: url(../images/Icons/Youtube.svg);
 }
