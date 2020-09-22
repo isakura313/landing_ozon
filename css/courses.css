@@ -59,10 +59,11 @@
 
 .courses__item_text {
     max-width: 328px;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.4px;
     margin: 0 0 24px 24px;
+    padding-right: 50px;
 }
 
 .courses__item_link {
