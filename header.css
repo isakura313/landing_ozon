@@ -4,9 +4,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
     margin: 2% 5% 2% 5%
 }
 
+.header__a {
+    font-size: 16px;
+    text-decoration: none;
+}
+.header__a:visited {
+    color:black;
+    text-decoration:none
+}
+.header__a_crazy3 {
+    font-size: 0px;
+}
 .header__logo {
     display: flex;
     background-image: url('images/Logo.png');
@@ -14,9 +26,27 @@
     width: 181px;
     background-size: contain;
     background-repeat: no-repeat;
+    animation-name: fading;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse;
 }
 
-
+@keyframes fading {
+    0%      {height: 0px;       width: 0px;     margin-left: 100px;}
+    10%     {height: 5.8px;     width: 18.1px;  margin-left: 90px;}
+    20%     {height: 11.6px;    width: 36.2px;  margin-left: 80px;}
+    30%     {height: 17.4px;    width: 54.3px;  margin-left: 70px;}
+    40%     {height: 23.2px;    width: 72.4px;  margin-left: 60px;}
+    50%     {height: 29px;      width: 90.5px;  margin-left: 50px;}
+    60%     {height: 34.8px;    width: 108.6px; margin-left: 40px;}
+    70%     {height: 40.6px;    width: 126.7px; margin-left: 30px;}
+    80%     {height: 46.4px;    width: 144.8px; margin-left: 20px;}
+    90%     {height: 52.2px;    width: 162.9px; margin-left: 10px;}
+    100%    {height: 58px;      width: 181px;   margin-left: 0;}
+}
 .header__nav {
     display: flex;
     justify-content: space-around;
@@ -25,17 +55,45 @@
 }
 
 .header__a {
-    font-size: 16px;
-    text-decoration: none;
+    animation-name: crazy;
+    animation-duration: 1s;
+    animation-delay: 10s;
+    animation-timing-function: 0.01s cubic-bezier(.17,.67,.83,.67);
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse;
 }
 
-.header__sidemenu {
-    display: none;
+.header__a_crazy3 {
+    animation-name: crazydazycash;
+    animation-duration: 1s;
+    animation-delay: 10s;
+    animation-timing-function: 0.01s cubic-bezier(.17,.67,.83,.67);
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
 }
-.header__a:visited {
-    color:black;
-    text-decoration:none
+
+
+@keyframes crazy {
+    0% {background-color:rgb(0,255,249); font-weight: bolder; font-size: 40px; display: none;}
+    20% {background-color:rgb(0, 255, 0); font-weight: bolder; font-size: 30px; }
+    40% {background-color:rgb(192, 169, 64); font-weight: bolder; font-size: 50px;display: none;}
+    60% {background-color:rgb(223, 20, 206); font-weight: bolder; font-size: 20px;}
+    80% {background-color:rgb(235, 54, 22); font-weight: bolder; font-size: 80px;display: none;}
+    100% {background-color:rgb(0, 255, 64); font-weight: bolder; font-size: 30px;}
 }
+
+
+ @keyframes crazydazycash {
+    0% {background-color:rgb(0,255,249); font-weight: bolder; font-size: 40px;}
+    20% {font-size: 0px;}
+    40% {background-color:rgb(192, 169, 64); font-weight: bolder; font-size: 50px;}
+    60% {font-size: 0px;}
+    80% {background-color:rgb(235, 54, 22); font-weight: bolder; font-size: 80px;}
+    100% {font-size: 0px; display: none;} 
+}
+
+
 
 .header__tagline {
     font-size: 26px;
