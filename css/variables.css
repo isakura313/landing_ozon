@@ -8,6 +8,21 @@
     font-family: 'Raleway', sans-serif;
 }
 
+.nav__adaptive {
+    display: none;
+}
+
+.nav__adaptive_btn {
+    background-image: url('../images/Icons/menu_adaptive_button.png');
+    height: 32px;
+    width: 32px;
+    display: none;
+}
+
+.visibility_switcher {
+    display: none !important;
+}
+
 :root {
     --main-text-color: #001A34;
     --main-textlight-color: #33475C;
@@ -21,4 +36,5 @@
     --main-cardborder-color: #E9EEF1;
     --main-formborder-color: #B2BAC2;
     --main-danger-color: #F81155;
+    --main-featuresborder-color: #E5EBF0;
 }

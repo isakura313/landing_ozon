@@ -19,6 +19,10 @@
     background-image: url(../images/footer_logo.png);
 }
 
+.footer__logo_second {
+    display: none;
+}
+
 .footer__text {
     font-size: 14px;
     line-height: 20px;
@@ -54,7 +58,7 @@
     background-image: url(../images/Icons/Youtube.svg)
 }
 
-.footer__logo_second {
+.footer__logo_ozon {
     height: 24px;
     width: 107px;
     background-image: url(../images/Ozon_logo.png);

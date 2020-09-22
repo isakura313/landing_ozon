@@ -1,7 +1,7 @@
 .promo_second {
     background-image: url(../images/promo_second.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 708px;
     width: 100%;
     color: var(--main-promotext-color);

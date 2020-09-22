@@ -7,8 +7,8 @@
     <meta name="keywords" content="академия, курсы, учеба, Python">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="images/favicon.png" type="image/png">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;600&display=swap" rel="stylesheet">
-    <script src='code.js'></script>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap" rel="stylesheet">
+    <script src='code.js' defer></script>
 </head>
 <body>
     <div class="wrapper">
@@ -21,7 +21,14 @@
             <a href="#" class="nav__link">Frontend-разработчик</a>
         </nav>
         <h5 class="logo_second">Это вам не Школа!</h5>
+        <button class="nav__adaptive_btn"></button>
     </header>
+
+    <nav class="nav__adaptive visibility_switcher">
+        <a href="#" class="nav__link">Бизнес-аналитика</a>
+        <a href="#" class="nav__link">Python 18+</a>
+        <a href="#" class="nav__link">Frontend-разработчик</a>
+    </nav>
 
     <div class="promo">
         <div class="promo_wrapper">
@@ -32,21 +39,21 @@
     </div>
 
     <div class="courses">
+        <h3 class="courses__title">Наши курсы</h3>
         <div class="courses_wrapper">
-            <h3 class="courses__title">Наши курсы</h3>
             <div class="courses__item courses__item_img_notebook">
                 <h5 class="courses__item_title">Бизнес-аналитика</h5>
-                <p class="courses__item_text">Изучение основных инструментов<br> и механизмов бизнес-аналитики</p>
+                <p class="courses__item_text">Изучение основных инструментов и механизмов бизнес-аналитики</p>
                 <a href="#" class="courses__item_link">Узнать больше</a>
             </div>
             <div class="courses__item courses__item_img_keyboards">
                 <h5 class="courses__item_title">Python 18+</h5>
-                <p class="courses__item_text">Основы программирования и знакомство<br> с возможностями языка Python</p>
+                <p class="courses__item_text">Основы программирования и знакомство с возможностями языка Python</p>
                 <a href="#" class="courses__item_link">Узнать больше</a>
             </div>
             <div class="courses__item courses__item_img_buttons">
                 <h5 class="courses__item_title">Frontend-разработчик</h5>
-                <p class="courses__item_text">Курс для новичков, которые хотят начать<br> свой путь в Frontend-разработке</p>
+                <p class="courses__item_text">Курс для новичков, которые хотят начать свой путь в Frontend-разработке</p>
                 <a href="#" class="courses__item_link">Узнать больше</a>
             </div>
         </div>
@@ -61,8 +68,8 @@
     </div>
 
     <div class="features">
+        <h3 class="features_title">Преимущества</h3>
         <div class="features_wrapper">
-            <h3 class="features_wrapper__title">Преимущества</h3>
             <div class="features_wrapper__item">
                 <div class="features_wrapper__item_img features_wrapper__item_img_cup"></div>
                 <h5 class="features_wrapper__item_title">Лидерство</h5>
@@ -95,7 +102,7 @@
             <input type="email" class="form__application_input" name="email" placeholder="E-mail">
             <input type="text" class="form__application_input" name="name" placeholder="Имя">
             <input type="text" class="form__application_input" name="surname" placeholder="Фамилия">
-            <select name="courses" id="select" class="form__application_select">
+            <select name="courses" id="application_select" class="form__application_select">
                 <option value="none" class="form__application_select_item_disabled"disabled selected>Выберите курс</option>
                 <option value="analytics" class="form__application_select_item">Бизнес-аналитика</option>
                 <option value="python" class="form__application_select_item">Python 18+</option>
@@ -109,6 +116,7 @@
     <footer class="footer">
         <div class="footer__wrapper">
             <div class="footer__logo"></div>
+            <h5 class="footer__logo_second">Это вам не Школа!</h5>
             <p class="footer__text">© 2019 ООО «Интернет Решения». Все права защищены. <br>Москва, Пресненская наб., 10, блок С <br>ons@ozon.ru</p>
             <div class="footer__social">
                 <a href='#' class="footer__social_item footer__social_item_instagram"></a>
@@ -116,7 +124,7 @@
                 <a href='#' class="footer__social_item footer__social_item_vk"></a>
                 <a href='#' class="footer__social_item footer__social_item_youtube"></a>
             </div>
-            <div class="footer__logo_second"></div>
+            <div class="footer__logo_ozon"></div>
         </div>
     </footer>
 
