@@ -1,0 +1,304 @@
+@media screen and (max-width: 768px)
+{
+    .header 
+    {
+        height: 76px;
+    }
+
+    .logo 
+    {
+        height: 38px;
+        width: 120px;
+        margin-left: 4.5%;
+    }
+    
+    .nav__a, .logo_second {
+        display: none;
+    }
+
+    .promo {
+        background-image: url(../images/promo_mobile.png);
+    }
+
+    .promo_title 
+    {
+        font-size: 31px;
+        margin-top: -60px;
+    }
+
+    .box_promo
+    {
+        width: 92%;
+        padding: 48vh 4% 0 4%;
+        margin-left: 0;
+    }
+
+    .promo_text 
+    {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .promo_butt 
+    {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .courses_head
+    {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .courses_head
+    {
+        font-size: 36px;
+        margin-top: 56px;
+        margin-bottom: 36px;
+    }
+
+    .courses_bord
+    {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        height: 350px;
+        overflow: scroll;
+        margin: 36px 0 34px 0;
+        padding: 0 16px;
+    }
+
+    .courses_card
+    {
+        min-width: 276px;
+        height: 350px;
+        box-shadow: 2px 2px 20px #E9EEF1;
+        border-radius: 12px;
+        border: 1px solid #E9EEF1;
+    }
+
+    .courses_image
+    {
+        width: 275px;
+    }
+
+    .courses_card_head{
+        font-size: 24px;
+    }
+    
+    .courses_card_text{
+        font-size: 16px;
+        letter-spacing: 0.4px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .courses_more{
+        font-size: 18px;
+    }
+
+    .promo_second 
+    {
+        background-image: url(../images/promo_second_mobile.png)
+    }
+
+    .box_promo_second 
+    {
+        width: 92%;
+        padding: 48vh 4% 0 4%;
+        margin-left: 0;
+        margin-top: -100px;
+        
+    }
+
+    .promo_second_title     
+    {
+        font-size: 31px;
+        margin-top: -60px;
+        line-height: 42px;
+    }
+
+    .promo_second_text 
+    {
+        font-size: 18px;
+    }
+
+    .promo_second_butt 
+    {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .courses_head 
+    {
+        margin-top: 56px;
+        margin-bottom: 36px;
+        font-size: 36px;
+    }
+
+    .line_plus
+    {
+        height: 320px;
+        overflow: scroll;
+        margin: 13px 0 33px 0;
+        align-items: center;
+        padding-left: 16px;
+    }
+
+    .plus_card
+    {
+        min-width: 276px;
+        height: 274px;
+        border: 1px solid #E5EBF0;
+        box-shadow: 2px 2px 20px #E5EBF0;
+        border-radius: 16px;
+        align-items: flex-start;
+        padding: 32px 24px;
+        box-sizing: border-box;
+        margin-left: 10px;
+        margin-right:  10px;
+    }
+
+    .plus_image
+    {
+        height: 56px;
+    }
+
+    .plus_card_head
+    {
+        font-size: 24px;
+    }
+
+    .plus_card_text
+    {
+        text-align: start;
+            font-size: 16px;
+            margin-bottom: 0;
+            line-height: 26px;
+            letter-spacing: 0.4px;
+            width: 220px;
+    }
+        
+    .form_wraper_title
+    {
+        font-size: 36px;
+    }
+
+    .application 
+    {
+        min-width: 328px;
+    }
+
+    .application__textarea 
+    {
+        margin-bottom: 36px;
+    }
+
+    .application__submit 
+    {
+        width: 100%;
+        margin-bottom: 56px;
+    }
+
+    .footer 
+    {
+        background-color:white;
+        height: 500px;
+        box-sizing: border-box;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .footer_wrapper 
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 36px;
+        height: 500px;
+    }
+
+    .footer_logo 
+    {
+        background-image: url('../images/Logo.png');
+        width: 190px;
+        height: 60px;
+        margin-top: -50px;
+    }
+
+    .footer__tagline 
+    {
+        display: inline;
+        margin: 0;
+        font-weight: bold;
+    }
+
+    .copyright__text 
+    {
+        color: #001A34;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.4px;
+    }
+
+    .copyright 
+    {
+        width: 88%;
+        text-align: center;
+    }
+
+    .social
+    {
+        display: flex;
+    }
+
+    .social__link_insta 
+    {
+        width: 37px;
+        height: 37px;
+        background-image: url(../images/Insta_adaprive.png);
+        background-size: contain;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .social__link_facebook 
+    {
+        width: 37px;
+        height: 37px;
+        background-image: url(../images/Facebook_adaptive.png);
+        background-size: contain;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .social__link_vk 
+    {
+        width: 37px;
+        height: 37px;
+        background-image: url(../images/VK_adaptive.png);
+        background-size: contain;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .social__link_youtube 
+    {
+        width: 37px;
+        height: 37px;
+        background-image: url(../images/Youtube_adaptive.png);
+        background-size: contain;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .footer_second_logo 
+    {
+        background-image: url(../images/Logo_adaptive.png);
+        background-size: cover;
+        height: 30px;
+        width: 140px;
+    }
+}
