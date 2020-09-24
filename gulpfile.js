@@ -17,7 +17,7 @@ gulp.task("copy-images", () => {
   return gulp
     .src("./src/imgages/**/*.*")
     .pipe(gulp.dest(dist + "images"))
-    .on("end", browsersync.reload);
+    .on("end", browserSync.reload);
 });
 
 gulp.task("server", function () {

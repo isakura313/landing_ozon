@@ -2,6 +2,19 @@
   font-family: "Raleway", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.container {
+  max-width: 1416px;
+  margin: 0 auto;
+}
+
+.section__header {
+  color: #001a34;
+  text-align: center;
+  font-weight: 700;
+  font-size: 46px;
+  margin: 60px 0;
+}
+
 .button {
   flex: none;
   background: #005bff;
@@ -127,17 +140,4 @@
   font-size: 18px;
   font-weight: 500;
   line-height: 24px;
-}
-
-.container {
-  max-width: 1416px;
-  margin: 0 auto;
-}
-
-.section__header {
-  color: #001a34;
-  text-align: center;
-  font-weight: 700;
-  font-size: 46px;
-  margin: 60px 0;
 }
