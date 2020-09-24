@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="90c15dc3-4197-49ad-b057-5a3ca4e96dd8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/adaptive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/courses.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/features.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/minify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/promo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/promo_second.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/variables.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hxqnsCO7y7qfQqMXiAGAbedwjI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="90c15dc3-4197-49ad-b057-5a3ca4e96dd8" name="Default Changelist" comment="" />
+      <created>1600963263744</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600963263744</updated>
+      <workItem from="1600963266884" duration="463000" />
+      <workItem from="1600963839751" duration="5149000" />
+      <workItem from="1600969353334" duration="1036000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="274" y="99" key="SettingsEditor" timestamp="1600963813157">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="274" y="99" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1600963813157" />
+    <state x="541" y="48" width="838" height="1032" key="search.everywhere.popup" timestamp="1600968811722">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="541" y="48" width="838" height="1032" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1600968811722" />
+  </component>
+</project>

@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 154px;
+}
+
+.header__logo{
+    background-image: url("../images/Logo.png");
+    height: 58px;
+    width: 182px;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.header__nav{
+    display: flex;
+    width: 45%;
+    justify-content: space-around;
+}
+.header__nav a{
+    font-size: 16px;
+    color: var( --second-dark-color);
+    font-family: var(--main-font);
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+}
+.header__nav a:hover{
+    color: var(--danger-color);
+}
+.header__h5{
+    font-size: 22px;
+    font-family: var(--main-font);
+    font-weight: bold;
+}
