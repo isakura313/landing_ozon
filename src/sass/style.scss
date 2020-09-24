@@ -5,11 +5,17 @@
 @import "blocks/buttons";
 @import "blocks/header";
 @import "blocks/promo";
+@import "blocks/courses";
+@import "blocks/cards";
 
 .container {
     max-width: 1416px;
     margin: 0 auto;
 }
-h1 {
-    color: blue;
+.section__header {
+    color: $header-color;
+    text-align: center;
+    font-weight:700;
+    font-size: 46px;
+    margin: 60px 0;
 }

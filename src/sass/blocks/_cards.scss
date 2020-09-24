@@ -1,0 +1,40 @@
+.card{
+    // display: flex;
+    // padding: 0;
+    // flex-direction: column;
+    // justify-content:space-around;
+    // align-items: flex-start;
+    height: 376.8px;
+    background: #FFFFFF;
+    border: 1px solid #E9EEF1;
+    // box-sizing: border-box;
+    box-shadow: 2px 2px 20px #E9EEF1;
+    border-radius: 12px;
+        &__img {
+            width: 376px;
+            height: 172.8px;
+        }
+        &__content{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding: 0 20px;
+        }
+        &__title {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+        }
+        &__description {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+        }
+        &__link {
+            text-decoration: none;
+            color: $main-color;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 24px;
+        }
+    }
