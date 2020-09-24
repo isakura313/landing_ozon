@@ -10,7 +10,8 @@
   font-size: 22px;
   font-weight: 500;
   width: 208px;
-  height: 65px; }
+  height: 65px;
+  cursor: pointer; }
 
 .header {
   display: flex;
@@ -18,7 +19,8 @@
   justify-content: space-between;
   height: 124px; }
   .header__logo {
-    height: 100px; }
+    height: 100px;
+    transform: translate(0, 25%); }
   .header__menu {
     display: flex;
     width: 520px;
@@ -28,6 +30,8 @@
       font-weight: 500;
       text-decoration: none;
       color: #001A34; }
+      .header__menu__link:hover {
+        color: #005BFF; }
   .header__slogan {
     font-size: 22px;
     font-weight: 500; }
@@ -60,6 +64,8 @@
     width: 420px;
     height: 344px;
     margin: 500px 160px 180px 0; }
+  .courses__promo__btn {
+    width: 238px; }
 
 .courses__card__wrapper {
   display: grid;
