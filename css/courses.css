@@ -16,7 +16,6 @@
 .course_card{
     box-shadow: 2px 2px 20px #E9EEF1;
     margin: 20px;
-    
 }
 /* .course_card:nth-child(3){
     margin-right: 16px;
@@ -39,6 +38,7 @@
     background-image: url('../images/course_keyboards.png');
 
 }
+
 .course_card__img_buttons{
     background-image: url('../images/course_buttons.png');
 }

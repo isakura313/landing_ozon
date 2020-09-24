@@ -1,3 +1,32 @@
+@keyframes logo {
+    0% {
+        height: 58px;
+        width: 182px;
+        position: relative;
+        left: -1px;
+    }
+
+    25% {
+        position: relative;
+        left: 5px;
+    }
+
+    50% {
+        position: relative;
+        left: 10px;
+    }
+
+    75% {
+        position: relative;
+        left: 15px;
+    }
+
+    100% {
+        position: relative;
+        left: 20px;
+    }
+}
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -10,6 +39,13 @@
     width:182px;
     background-size: contain;
     background-repeat: no-repeat;
+
+    animation-name: logo;
+    animation-duration: 0.3s;
+    animation-delay: 0.5s;
+    animation-iteration-count: 4;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
 }
 .nav{
     display: flex;
