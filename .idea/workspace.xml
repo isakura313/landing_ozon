@@ -20,18 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90c15dc3-4197-49ad-b057-5a3ca4e96dd8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/adaptive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/courses.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/features.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/form.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/minify.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/promo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/promo_second.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/variables.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +60,7 @@
       <updated>1600963263744</updated>
       <workItem from="1600963266884" duration="463000" />
       <workItem from="1600963839751" duration="5149000" />
-      <workItem from="1600969353334" duration="1036000" />
+      <workItem from="1600969353334" duration="1256000" />
     </task>
     <servers />
   </component>
