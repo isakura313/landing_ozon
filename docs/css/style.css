@@ -36,17 +36,30 @@
   display: flex;
   background: url("../images/promo_img.png") center center/cover no-repeat;
   height: 708px; }
-  .promo__header {
-    font-size: 58px;
-    line-height: 2px; }
-  .promo__text {
-    font-size: 24px;
-    line-height: 36px; }
   .promo__content {
     color: #fff;
     width: 500px;
     height: 276px;
     margin: 171px 0 0 120px; }
+  .promo__header {
+    font-size: 58px;
+    line-height: 58px; }
+  .promo__text {
+    font-size: 24px;
+    line-height: 36px; }
+  .promo__btn {
+    margin-top: 40px; }
+
+.courses__promo {
+  margin-top: 136px;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  background: url("../images/promo_second.png") center center/cover no-repeat; }
+  .courses__promo__content {
+    color: #fff;
+    width: 420px;
+    height: 344px;
+    margin: 500px 160px 180px 0; }
 
 .courses__card__wrapper {
   display: grid;
@@ -63,9 +76,12 @@
   .card__img {
     width: 376px;
     height: 172.8px; }
+  .card__img img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px; }
   .card__content {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: 60px 100px 1fr;
     justify-content: space-around;
     padding: 0 20px; }
   .card__title {

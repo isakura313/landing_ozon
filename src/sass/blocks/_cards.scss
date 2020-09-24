@@ -14,9 +14,14 @@
             width: 376px;
             height: 172.8px;
         }
+
+        &__img img{
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+        }
         &__content{
-            display: flex;
-            flex-direction: column;
+            display: grid;
+            grid-template-rows: 60px 100px 1fr;
             justify-content: space-around;
             padding: 0 20px;
         }
