@@ -206,6 +206,10 @@
     .footer__tagline {
         display: inline;
         margin: 0;
+        font-family: var(--main-font);
+        font-size: 22px;
+        color: #001A34;
+        font-weight: 700;
     }
 
     .copyright__text {
