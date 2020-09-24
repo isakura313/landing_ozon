@@ -1,2 +1,56 @@
+* {
+  font-family: 'Raleway', Tahoma, Geneva, Verdana, sans-serif; }
+
+.button {
+  flex: none;
+  background: #005BFF;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  width: 208px;
+  height: 65px; }
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 124px; }
+  .header__logo {
+    height: 100px; }
+  .header__menu {
+    display: flex;
+    width: 520px;
+    justify-content: space-between; }
+    .header__menu__link {
+      font-size: 16px;
+      font-weight: 500;
+      text-decoration: none;
+      color: #001A34; }
+  .header__slogan {
+    font-size: 22px;
+    font-weight: 500; }
+
+.promo {
+  display: flex;
+  background: url("../images/promo_img.png") center center/cover no-repeat;
+  height: 708px; }
+  .promo__header {
+    font-size: 58px;
+    line-height: 2px; }
+  .promo__text {
+    font-size: 24px;
+    line-height: 36px; }
+  .promo__content {
+    color: #fff;
+    width: 500px;
+    height: 276px;
+    margin: 171px 0 0 120px; }
+
+.container {
+  max-width: 1416px;
+  margin: 0 auto; }
+
 h1 {
   color: blue; }

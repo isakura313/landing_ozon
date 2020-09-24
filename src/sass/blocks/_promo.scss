@@ -1,0 +1,19 @@
+.promo {
+    display: flex;
+    background: url("../images/promo_img.png") center (center/cover) no-repeat;
+    height: 708px;
+    &__header {
+        font-size: 58px;
+        line-height: 2px;
+    }
+    &__text {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    &__content {
+        color: #fff;
+        width: 500px;
+        height: 276px;
+        margin: 171px 0 0 120px;
+    }
+}

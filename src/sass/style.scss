@@ -1,5 +1,15 @@
+* {
+    font-family: 'Raleway', Tahoma, Geneva, Verdana, sans-serif;
+}
+@import "base/variables";
+@import "blocks/buttons";
+@import "blocks/header";
+@import "blocks/promo";
 
-
+.container {
+    max-width: 1416px;
+    margin: 0 auto;
+}
 h1 {
     color: blue;
 }
