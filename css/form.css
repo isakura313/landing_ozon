@@ -32,7 +32,7 @@
     font-family: var(--main-font);
 }
 .application__input::placeholder{
-    color: #1A3047;
+    color: #B2BAC2;
     opacity: 1;
     font-weight: 700;
     letter-spacing: 0.7px;
@@ -90,7 +90,7 @@ select {
 }
 
 .application__textarea::placeholder{
-    color: #667585;
+    color: #B2BAC2;
     opacity: 1;
     font-weight: 700;
     letter-spacing: 0.7px;

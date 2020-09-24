@@ -1,4 +1,7 @@
 @media screen and (max-width: 768px) {
+    .wrapper{
+        width: auto;
+    }
     .header {
         height: 76px;
     }
@@ -9,12 +12,8 @@
         margin-left: 4.5%;
     }
     
-    .nav, .logo_second, .nav_mobile{
+    .nav, .logo_second{
         display: none;
-    }
-    .adaptive_menu{
-        display: block;
-        margin-right: 5%;
     }
 
     .promo {
@@ -22,7 +21,8 @@
     }
 
     .promo_wrapper__title {
-        font-size: 30px;
+        font-size: 36px;
+        margin-bottom: 16px;
     }
 
     .promo_wrapper {
@@ -32,7 +32,8 @@
 
     .promo_wrapper__text {
         font-size: 18px;
-        line-height: 26px;
+        line-height: 28px;
+        margin-bottom: 32px;
     }
 
     .promo_wrapper__button {
@@ -61,7 +62,6 @@
         border-radius: 12px;
         border: 1px solid #E9EEF1;
         box-sizing: border-box;
-        /* padding-right: 20px; */
     }
 
     .course_card_wrapper {
@@ -123,9 +123,9 @@
     }
 
     .advantages__title {
-        margin-top: 56px;
-        margin-bottom: 36px;
         font-size: 36px;
+        margin-top: 56px;
+        margin-bottom: 36px; 
     }
 
     .advantages {
