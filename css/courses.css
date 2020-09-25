@@ -52,7 +52,7 @@
     font-family: var(--main-font);
     line-height: 1.6;
     grid-area: text;
-    margin: 0px 24px;
+    margin: 0px 22px;
 }
 .course_card__link{
     color: var(--main-bg-color);
