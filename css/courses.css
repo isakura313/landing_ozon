@@ -2,7 +2,7 @@
     margin: 80px 6% 134px 6%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 4%;
+    column-gap: 2%;
 }
 .courses__title{
     grid-column: 1/4;
@@ -17,7 +17,6 @@
 }
 .course_card_wrapper{
     border: 1px solid #E5EBF0;
-    /* padding: 32px 24px; */
     display: grid;
     grid-template-rows: 4fr 2fr 2fr 1fr;
     grid-template-areas: 
@@ -25,13 +24,12 @@
     'title'
     'text'
     'link';
-    border-radius: 8px;
 }
 .course_card__img{
     background-size: cover;
     background-repeat: no-repeat;
     height: 172px;
-    border-radius: 8px 8px 0 0;
+    border-radius: 12px 12px 0 0;
     grid-area: img;
 }
 .course_card__img_notebooks{
