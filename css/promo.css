@@ -1,0 +1,39 @@
+.promo{
+    background-image: url('../images/promo_img.png');
+    height: 708px;
+    background-size: cover;
+    background-repeat: none;
+
+}
+.promo_wrapper{
+    color:white;
+    width: 33%;
+    padding: 10% 0 0 8%;
+}
+.promo_wrapper__title{
+    font-size: 55px;
+    font-family: var(--main-font);
+    letter-spacing: 1.5px;
+}
+.promo_wrapper__text{
+    font-size: 22px;
+    font-family: var(--main-font); 
+    line-height: 1.4;
+}
+.promo_wrapper__btn{
+    color: inherit;
+    font-size: 20px;
+    font-family: var(--main-font);
+    background-color: var(--main-bg-color); 
+    border: 0;
+    font-weight: 300;
+    padding: 20px 18px;
+    border-radius: 8px;
+    letter-spacing: 0.8px;
+}
+.promo_wrapper__btn:hover{
+    cursor:pointer;
+    transition: all 0.5s;
+    color: var(--main-danger-color);
+    background: white;
+}

@@ -1,0 +1,69 @@
+.features{
+    margin: 80px 6% 134px 6%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 4%;
+}
+
+.features__title{
+    grid-column: 1/5;
+    text-align: center;
+    font-family: var(--main-font);
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 60px;
+}
+
+.features_card_wrapper{
+    padding: 32px 24px;
+    text-align: center;
+}
+.features_card__img{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 52px;
+
+}
+
+.features_card__img_cup{
+    background-image: url('../images/Icons/cup.svg');
+
+    
+
+}
+
+.features_card__img_expert{
+    background-image: url('../images/Icons/Expert.svg');
+    
+
+}
+.features_card__img_human{
+    background-image: url('../images/Icons/human.svg');
+    
+
+}
+
+.features_card__img_clock{
+    background-image: url('../images/Icons/clock 2.svg');
+   
+
+}
+
+.features_card__title{
+    font-size: 24px;
+    font-family: var(--main-font);
+    margin: 0;
+}
+.features_card__text{
+    font-size: 16px;
+    font-family: var(--main-font);
+    line-height: 1.6;
+}
+.features_card__link{
+    color: var(--main-bg-color);
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+
+}
