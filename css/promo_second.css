@@ -7,12 +7,12 @@
 
 .promo_second_wrapper {
     color:white;
-    width: 33%;
-    padding: 12% 0 0 58%;
-    font-family: var(--main-font);
-    font-size: 30px;
+    width: 19%;
+    padding: 10% 0 0 78%;
+   
 }
 .promo-second_wrapper__title {
+    font-size: 55px;
     font-family: var(--main-font);
     letter-spacing: 1.5px;
 }
