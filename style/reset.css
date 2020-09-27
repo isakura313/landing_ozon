@@ -87,3 +87,7 @@ a {
 	display: block;
 	text-decoration: none;
 }
+
+a:visited {
+    color: inherit;
+}
