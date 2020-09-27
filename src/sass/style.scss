@@ -1,6 +1,9 @@
 @import "base/variables";
 
 * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     font-family: 'Raleway', Tahoma, Geneva, Verdana, sans-serif;
 }
 .container {
@@ -21,3 +24,5 @@
 @import "blocks/promo";
 @import "blocks/courses";
 @import "blocks/cards";
+@import "blocks/advantages";
+@import "blocks/form";

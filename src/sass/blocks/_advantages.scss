@@ -1,0 +1,42 @@
+.advantages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 488px;
+
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 205px) 220px;
+        grid-gap: 24px;
+
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        &__title {
+            margin-top: 32px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            letter-spacing: 0.6px;
+
+            color: $header-color
+        }
+
+        &__text {
+            margin-top: 16px;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 26px;
+            text-align: center;
+            letter-spacing: 0.4px;
+        }
+
+    }
+}

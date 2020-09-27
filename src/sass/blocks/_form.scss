@@ -1,0 +1,10 @@
+.form{
+    height: 600px;
+    background-color: $form-background;
+    &__container {
+        max-width: 800px;
+    }
+    & h2 {
+        margin-top: 60px;
+    }
+}

@@ -1,4 +1,7 @@
 * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   font-family: 'Raleway', Tahoma, Geneva, Verdana, sans-serif; }
 
 .container {
@@ -58,10 +61,10 @@
     margin: 171px 0 0 120px; }
   .promo__header {
     font-size: 58px;
-    line-height: 58px; }
+    margin-bottom: 32px; }
   .promo__text {
     font-size: 24px;
-    line-height: 36px; }
+    margin-bottom: 32px; }
   .promo__btn {
     margin-top: 40px; }
 
@@ -104,14 +107,54 @@
   .card__title {
     font-weight: 700;
     font-size: 24px;
-    line-height: 28px; }
+    line-height: 28px;
+    margin-top: 32px; }
   .card__description {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px; }
+    line-height: 24px;
+    margin-top: 16px; }
   .card__link {
     text-decoration: none;
     color: #005BFF;
     font-size: 18px;
-    font-weight: 500;
-    line-height: 24px; }
+    font-weight: 500; }
+
+.advantages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 488px; }
+  .advantages__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 205px) 220px;
+    grid-gap: 24px; }
+  .advantages__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; }
+    .advantages__item__title {
+      margin-top: 32px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      letter-spacing: 0.6px;
+      color: #001A34; }
+    .advantages__item__text {
+      margin-top: 16px;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 26px;
+      text-align: center;
+      letter-spacing: 0.4px; }
+
+.form {
+  height: 600px;
+  background-color: #EFF3F6; }
+  .form__container {
+    max-width: 800px; }
+  .form h2 {
+    margin-top: 60px; }
