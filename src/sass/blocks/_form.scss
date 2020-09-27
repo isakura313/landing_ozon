@@ -12,14 +12,16 @@
 }
 
 form {
-
-    & input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    & input, select, textarea{
         display: flex;
         flex-direction: column;
 
         padding: 20px;
         width: 456px;
-        height: 56px;
+        height: 60px;
         color: #1A3047;
         border-radius: 4px;
         border:solid 1px #B2BAC2;
@@ -27,8 +29,17 @@ form {
         &::placeholder {
             display: flex;
             color: #1A3047;
-            font-size: 18px;
+            font-size: 16px;
             align-items: center;
         }
+    }
+
+    & textarea {
+        height: 200px;
+    }
+
+    & select, & textarea {
+        color: #667585
+        ;
     }
 }
