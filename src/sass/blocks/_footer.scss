@@ -1,10 +1,11 @@
-.footer{
+.footer {
     height: 220px;
     background-color: #001A34;
     color: #fff;
     display: flex;
     // justify-content: space-between;
     align-items: center;
+
     &__content {
         width: 1416px;
         display: flex;
@@ -13,7 +14,13 @@
     }
 }
 
-.social{
+.copyright__text {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.social {
     display: flex;
     width: 180px;
     justify-content: space-between;

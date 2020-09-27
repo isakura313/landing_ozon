@@ -206,6 +206,11 @@ form {
     justify-content: space-between;
     align-items: center; }
 
+.copyright__text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px; }
+
 .social {
   display: flex;
   width: 180px;
