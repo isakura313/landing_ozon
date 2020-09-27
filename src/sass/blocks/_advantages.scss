@@ -6,6 +6,7 @@
     height: 488px;
 
     &__wrapper {
+        margin-top: 16px;
         display: grid;
         grid-template-columns: repeat(3, 205px) 220px;
         grid-gap: 24px;
