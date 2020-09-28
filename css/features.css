@@ -1,0 +1,58 @@
+.features_h2{
+    text-align: center;
+    font-family: var(--main-font);
+    font-size: 42px;
+    font-weight: 900;
+    margin-top: 80px;
+    margin-bottom: 64px;
+    letter-spacing: 0.8px;
+}
+
+.features{
+    margin: 80px 8% 134px 8%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 4%;
+}
+.feature_card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.feature_card__img{
+    width: 72px;
+    height: 56px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.card__img_lider{
+    background-image: url("../images/Icons/cup.svg");
+}
+.card__img_expert{
+    background-image: url("../images/Icons/Expert.svg");
+}
+.card__img_now{
+    background-image: url("../images/Icons/clock 2.svg");
+}.card__img_mentors{
+     background-image: url("../images/Icons/human.svg");
+ }
+
+ .feature_card__title{
+     margin: 32px 0 0 0;
+     font-size: 24px;
+     font-family: var(--main-font);
+     letter-spacing: 0.6px;
+     font-weight: bold;
+ }
+.feature_card__text{
+    text-align: center;
+    color: var(--font-dark-color);
+    font-family: var(--main-font);
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 18px;
+    margin: 16px 0 0 0;
+    letter-spacing: 0.7px;
+}

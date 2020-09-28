@@ -1,0 +1,13 @@
+.promo_second{
+    background: url("../images/promo_second.png");
+    height: 708px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.promo_second_wrapper{
+    color: white;
+    width: 80%;
+    padding-left: 48%;
+}
