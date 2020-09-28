@@ -3,7 +3,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 500px;
+    min-height: 500px;
+    margin: 40px 0;
 
     &__title{
         margin-top: 0;
@@ -42,5 +43,14 @@
             letter-spacing: 0.4px;
         }
 
+    }
+}
+
+@include md {
+    .advantages {
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+        }
     }
 }
