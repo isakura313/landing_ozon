@@ -202,8 +202,6 @@ form {
     display: flex;
     align-items: center;
     justify-content: space-between; }
-  .footer__logo {
-    max-width: 20px; }
 
 .copyright__text {
   font-weight: 300;
