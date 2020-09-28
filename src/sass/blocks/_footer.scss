@@ -2,17 +2,18 @@
     height: 220px;
     background-color: $header-color;
     color: #fff;
-    display: flex;
-    // justify-content: space-between;
-    align-items: center;
-
-    &__content {
-        width: 1416px;
+    & .container {
+        padding-top: 80px;
         display: flex;
-        justify-content: space-between;
         align-items: center;
+        justify-content: space-between;
+    }
+    &__logo {
+        max-width: 20px;
     }
 }
+
+
 
 .copyright__text {
     font-weight: 300;
