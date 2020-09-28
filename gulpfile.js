@@ -26,6 +26,7 @@ gulp.task("server", function () {
       baseDir: "./docs/",
     },
   });
+  browserSync.reload;
 });
 
 gulp.task("styles", function () {
