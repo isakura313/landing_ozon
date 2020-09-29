@@ -1,0 +1,228 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', Tahoma, Geneva, Verdana, sans-serif; }
+
+.container {
+  max-width: 1416px;
+  margin: 0 auto; }
+
+.section__header {
+  color: #001A34;
+  text-align: center;
+  font-weight: 700;
+  font-size: 46px;
+  margin: 60px 0; }
+
+.button {
+  background: #005BFF;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  width: 208px;
+  height: 65px;
+  cursor: pointer; }
+
+.contact_form__btn {
+  width: 250px;
+  height: 60px;
+  margin: 40px 0 80px 0; }
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 124px; }
+  .header__logo {
+    height: 100px;
+    transform: translate(0, 25%); }
+  .header__menu {
+    display: flex;
+    width: 520px;
+    justify-content: space-between; }
+    .header__menu__link {
+      font-size: 16px;
+      font-weight: 500;
+      text-decoration: none;
+      color: #001A34; }
+      .header__menu__link:hover {
+        color: #005BFF; }
+  .header__slogan {
+    font-size: 22px;
+    font-weight: 500; }
+
+.promo {
+  display: flex;
+  background: url("../images/promo_img.png") center center/cover no-repeat;
+  height: 708px; }
+  .promo__content {
+    color: #fff;
+    width: 500px;
+    height: 276px;
+    margin: 171px 0 0 120px; }
+  .promo__header {
+    font-size: 58px;
+    margin-bottom: 32px; }
+  .promo__text {
+    font-size: 24px;
+    margin-bottom: 32px; }
+  .promo__btn {
+    margin-top: 40px; }
+
+.courses__promo {
+  margin-top: 136px;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  background: url("../images/promo_second.png") center center/cover no-repeat; }
+  .courses__promo__content {
+    color: #fff;
+    width: 420px;
+    height: 344px;
+    margin: 0 160px 220px 0; }
+  .courses__promo__btn {
+    width: 238px; }
+
+.courses__card__wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 376px);
+  grid-gap: 24px;
+  justify-content: center; }
+
+.card {
+  height: 376.8px;
+  background: #FFFFFF;
+  border: 1px solid #E9EEF1;
+  box-shadow: 2px 2px 20px #E9EEF1;
+  border-radius: 12px; }
+  .card__img {
+    width: 376px;
+    height: 172.8px; }
+  .card__img img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px; }
+  .card__content {
+    display: grid;
+    grid-template-rows: 60px 100px 1fr;
+    justify-content: space-around;
+    padding: 0 20px; }
+  .card__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 32px; }
+  .card__description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 16px; }
+  .card__link {
+    text-decoration: none;
+    color: #005BFF;
+    font-size: 18px;
+    font-weight: 500; }
+
+.advantages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 500px;
+  margin: 40px 0; }
+  .advantages__title {
+    margin-top: 0; }
+  .advantages__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 205px) 220px;
+    grid-gap: 24px; }
+  .advantages__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; }
+    .advantages__item__title {
+      margin-top: 32px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      letter-spacing: 0.6px;
+      color: #001A34; }
+    .advantages__item__text {
+      margin-top: 16px;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 26px;
+      text-align: center;
+      letter-spacing: 0.4px; }
+
+@media (max-width: 768px) {
+  .advantages__wrapper {
+    display: flex;
+    flex-direction: column; } }
+
+.contact_form {
+  background-color: #EFF3F6; }
+  .contact_form__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  form input, form select, form textarea {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 456px;
+    height: 60px;
+    color: #1A3047;
+    border-radius: 4px;
+    border: solid 1px #B2BAC2;
+    margin-bottom: 30px; }
+    form input:-ms-input-placeholder, form select:-ms-input-placeholder, form textarea:-ms-input-placeholder {
+      display: flex;
+      color: #1A3047;
+      font-size: 16px;
+      align-items: center; }
+    form input::placeholder, form select::placeholder, form textarea::placeholder {
+      display: flex;
+      color: #1A3047;
+      font-size: 16px;
+      align-items: center; }
+  form textarea {
+    height: 200px; }
+  form select, form textarea {
+    color: #667585; }
+
+.footer {
+  background-color: #001A34;
+  color: #fff; }
+  .footer__content {
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+
+.copyright__text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px; }
+
+.social {
+  display: flex;
+  width: 180px;
+  justify-content: space-between; }
+
+@media (max-width: 768px) {
+  .footer__content {
+    flex-direction: column;
+    height: 400px; }
+  .copyright__text {
+    display: flex;
+    text-align: center; } }
