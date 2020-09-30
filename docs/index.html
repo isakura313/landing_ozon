@@ -109,18 +109,18 @@
     <section class="contact_form">
         <div class="container contact_form__container">
             <h2 class="section__header">Оставить заявку <br>на бесплатное пробное занятие</h2>
-            <form action="#" method="post">
+            <form action="#" method="post" class="contact_form__block">
                 <input type="text" class="contact_form__input" placeholder="Город">
                 <input type="tel" class="contact_form__input" placeholder="+7" pattern="+7([0-9]{3})-[0-9]{3}-[0-9]{2}-[0-9]{2}">
                 <input type="email" class="contact_form__input" placeholder="E-mail">
                 <input type="text" class="contact_form__input" placeholder="Имя и фамилия">
-                <select id="courses" name="courses">
+                <select id="courses" name="courses" class="contact_form__select contact_form__input">
                     <option value="" disabled selected hidden>Выберите курс</option>
                     <option value="Buisnes">Бизнес-аналитика</option>
                     <option value="Python">Pthon 18+</option>
                     <option value="Frontend">Frontend-разработчик</option>
                   </select>
-                  <textarea name="message" rows="10" cols="60">Комментарий</textarea>
+                  <textarea name="message" rows="10" cols="60" class="contact_form__textarea contact_form__input">Комментарий</textarea>
                 <button class="button contact_form__btn">Отправить заявку</button>
             </form>
 

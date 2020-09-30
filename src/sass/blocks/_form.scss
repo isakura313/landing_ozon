@@ -9,13 +9,13 @@
 
     }
 
-}
+    &__block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    & input, select, textarea{
+    &__input{
         display: flex;
         flex-direction: column;
 
@@ -34,12 +34,11 @@ form {
         }
     }
 
-    & textarea {
+    &__textarea {
         height: 200px;
     }
 
-    & select, & textarea {
-        color: #667585
-        ;
+    &__select, &__textarea {
+        color: #667585;
     }
 }
