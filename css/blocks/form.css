@@ -37,8 +37,13 @@
 }
 .contact__form__item::placeholder {
     font-size: 18px;
+    color: #1A3047;
 }
 
 .textarea {
     height: 200px;
+}
+
+.select, .textarea::placeholder {
+  color: #667585
 }
