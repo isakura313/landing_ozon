@@ -363,6 +363,7 @@ body {
     letter-spacing: 0.7px;
     background: url("../img/icons/arrow.svg") no-repeat 96% center;
     background-color: #fff;
+    color: #667585;
     border: 1px solid #B2BAC2;
     border-radius: 6px;
 }
@@ -398,6 +399,10 @@ body {
 
 ::placeholder {
     color: #001A34;
+}
+
+.comment::placeholder {
+    color: #667585;
 }
 
 input:focus::-webkit-input-placeholder { 
