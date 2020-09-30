@@ -1,0 +1,36 @@
+.card__wrapper {
+  max-width: 1176px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  max-width: 376px;
+  min-height: 376px;
+  border: 1px solid #e9eef1;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 20px #e9eef1;
+  border-radius: 12px;
+}
+.card__image {
+  border-radius: 12px 12px 0 0;
+}
+
+.card__content {
+  margin: 30px 24px;
+}
+
+.card__title {
+  font-size: 24px;
+}
+
+.card__text {
+  margin-top: 16px;
+  font-size: 16px;
+}
+
+.card__link {
+  margin-left: 24px;
+  color: var(--btn-color);
+}

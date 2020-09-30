@@ -1,0 +1,34 @@
+:root{
+    --light-bg-color: #2f80ed;
+    --btn-color: #005BFF;
+    --main-dark: #333333;
+    --second-dark-color: #001A34;
+    --main-second-grey: #EFF3F6;
+    --danger-color: #F91155;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* color:  */
+}
+
+body {
+    font-family: "GT Eesti Pro Display";
+    font-weight: 500;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 20px;
+}
+
+p {
+    font-family: "GT Eesti Pro Text";
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+}

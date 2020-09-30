@@ -1,0 +1,30 @@
+.promo {
+    display: flex;
+    background-image: url("../../images/Promo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 708px;
+}
+
+.promo__content {
+    margin: 171px 0 0 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+    max-width: 500px;
+    height: 276px;
+}
+
+.promo__header{
+    font-size: 58px;
+}
+
+.promo__text {
+    font-size: 24px;
+}
+
+.promo__btn {
+    width: 208px;
+    height: 64px;
+}
