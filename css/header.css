@@ -1,42 +1,85 @@
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 154px;
 }
-.logo{
+
+.logo_wrapper {
+    width: 200px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
     background-image: url('../images/Logo.png');
     height: 58px;
-    width:182px;
+    width: 182px;
     background-size: contain;
     background-repeat: no-repeat;
+    animation-name: logo_animation;
+    animation-duration: 0.70s;
+    animation-delay: 1.5s;
+    animation-iteration-count: 2;
+    animation-timing-function: linear;
+    animation-fill-mode: backwards;
 }
-.nav{
+
+.nav {
     display: flex;
     width: 45%;
     justify-content: space-around;
 }
-.nav__a{
+
+.nav__a {
     font-size: 18px;
-    color:black;
+    color: black;
     text-decoration: none;
     font-family: var(--main-font);
     font-weight: 700;
     letter-spacing: 0.5px;
 }
-.nav__a:hover{
-    color:var( --main-danger-color);
+
+.nav__a:hover {
+    color: var( --main-danger-color);
 }
-.logo_second{
+
+.logo_second {
     font-size: 22px;
 }
-.adaptive_menu{
+
+.adaptive_menu {
     display: none;
 }
-.see_helper{
+
+.see_helper {
     display: flex !important;
     width: 50%;
     flex-direction: column;
     text-align: center;
     margin: 0 auto;
+}
+
+@keyframes logo_animation {
+    0% {
+        width: 182px;
+        height: 58px;
+    }
+    25% {
+        width: 200px;
+        height: 64px;
+    }
+    50% {
+        width: 182px;
+        height: 58px;
+    }
+    75% {
+        width: 150px;
+        height: 48px;
+    }
+    100% {
+        width: 182px;
+        height: 58px;
+    }
 }
