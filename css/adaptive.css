@@ -12,8 +12,13 @@
         margin-left: 4.5%;
     }
     
-    .nav, .logo_second{
+    .nav, .logo_second, .nav_mobile{
         display: none;
+    }
+
+    .adaptive_menu{
+        display: block;
+        margin-right: 5%;
     }
 
     .promo {

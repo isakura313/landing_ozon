@@ -27,6 +27,9 @@
     font-size: 22px;
     font-family: var(--main-font);
 }
+.nav_mobile{
+    display: none;
+}
 .adaptive_menu{
     display: none;
 }
