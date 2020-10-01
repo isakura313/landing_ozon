@@ -1,0 +1,21 @@
+.cards__h2 {
+    font-family: GT Eesti Pro Display;
+    font-size: 46px;
+    margin-top: 80px;
+}
+.cards__wrapper {
+   display: flex;
+   justify-content: center;
+   margin-top: 64px; 
+}
+.cards__card {
+   width: 376px;
+   height: 377px;
+   border: 1px solid #E9EEF1;
+   box-shadow: 2px 2px 20px #E9EEF1;
+   border-radius: 12px;
+   margin-right: 24px; 
+}
+.cards__card:last-child {
+    margin-right: 0;    
+}
