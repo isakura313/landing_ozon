@@ -1,0 +1,437 @@
+@font-face {
+    font-family: 'GT Eesti Pro Display';
+    font-style: normal;
+    font-weight: 100;
+    src: local("GT Eesti Pro Display UltraLight"),
+        url("../fonts/GTEestiProDisplay-UltraLight.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'GT Eesti Pro Display';
+    font-style: normal;
+    font-weight: 200;
+    src: local("GT Eesti Pro Display Thin"),
+        url("../fonts/GTEestiProDisplay-Thin.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'GT Eesti Pro Display';
+    font-style: normal;
+    font-weight: 300;
+    src: local("GT Eesti Pro Display Light"),
+        url("../fonts/GTEestiProDisplay-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'GT Eesti Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    src: local("GT Eesti Pro Display Regular"),
+        url("../fonts/GTEestiProDisplay-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'GT Eesti Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    src: local("GT Eesti Pro Display Medium"),
+        url("../fonts/GTEestiProDisplay-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'GT Eesti Pro Display';
+    font-style: normal;
+    font-weight: bold;
+    src: local("GT Eesti Pro Display Bold"),
+        url("../fonts/GTEestiProDisplay-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'GT Eesti Pro Text';
+    font-style: normal;
+    font-weight: 300;
+    src: local("GT Eesti Pro Text Thin"),
+        url("../fonts/GTEestiProText-Thin.ttf") format("truetype");
+}
+
+body {
+    color: #001A34;
+}
+
+.wrapper {
+    width: 1416px;
+    margin: 0 auto;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 124px;
+}
+
+
+.header__courses-list {
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+
+.header__courses-list__item {
+    font-family: 'GT Eesti Pro Display';
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.6px;
+}
+
+.header__courses-list__item:hover {
+    transition: all 0.3s;
+    color: #005BFF;
+}
+
+.header__slogan {
+    font-family: 'GT Eesti Pro Display';
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.promo__img {
+    display: flex;
+    background: url("../img/promo.jpg") no-repeat;
+    background-size: cover;
+    min-height: 708px;
+    
+}
+
+.promo__discription {
+    max-width: 530px;
+    margin: 12% 0 0 9%;
+    color: #fff;
+}
+
+.promo__discription__title {
+    margin-bottom: 12px;
+    font-family: 'GT Eesti Pro Display';
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 68px;
+    letter-spacing: 1px;
+}
+
+.promo__discription__text {
+    margin-bottom: 30px;
+    font-family: 'GT Eesti Pro Text';
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.6px;
+}
+
+.promo__discription__button {
+    padding: 22px 32px;
+    font-family: 'GT Eesti Pro Display';
+    font-weight: 300;
+    font-size: 22px;
+    letter-spacing: 0.7px;
+    background-color: #005BFF;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+.promo__discription__button:hover {
+    transition: all 0.3s;
+    cursor: pointer;
+    background-color: #fff;
+    color: #005BFF;
+}
+
+.our__courses {
+    margin-bottom: 135px;
+}
+
+.our__courses__title {
+    padding: 80px 0 65px 0;
+    text-align: center;
+    font-family: 'GT Eesti Pro Display';
+    font-weight: 500;
+    font-size: 46px;
+}
+
+.our__courses__wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1176px;
+    margin: 0 auto;
+}
+
+.courses__item {
+    display: flex;
+    flex-direction: column;
+    max-width: 376px;
+}
+
+.courses__item__img {
+    min-height: 173px;
+    border-radius: 10px 10px 0 0;
+}
+
+.img__laptop {
+    background: url("../img/image__laptop.jpg") no-repeat;
+}
+
+.img__keyboard {
+    background: url("../img/image__keyboard.jpg") no-repeat;
+}
+
+.img__keyboard-button {
+    background: url("../img/image__keyboard-button.jpg") no-repeat;
+}
+
+.courses__item__wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 24px;
+    border: 1px solid #E9EEF1;
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 2px 2px 10px #E9EEF1;
+}
+
+.courses__item__title {
+    padding-bottom: 16px;
+    font-family: 'GT Eesti Pro Display';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.6px;
+}
+
+.courses__item__text {
+    padding-bottom: 24px;
+    font-family: 'GT Eesti Pro Text';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+
+.courses__item__more {
+    font-family: 'GT Eesti Pro Display';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.7px;
+    color: #005BFF;
+}
+
+.courses__item__more:hover {
+    transition: all 0.3 s;
+    color: #FA2966;
+}
+
+.second__promo__img {
+    display: flex;
+    min-height: 708px;
+    margin-bottom: 80px;
+    background: url("../img/second__promo.jpg") no-repeat;
+    background-size: cover;
+}
+
+.second__promo__discription {
+    max-width: 410px;
+    margin: 12% 0 0 59%; 
+    color: #fff;
+}
+
+.features {
+    margin-bottom: 80px;
+}
+
+.features__title {
+    margin-bottom: 65px;
+    text-align: center;
+    font-family: 'GT Eesti Pro Display';
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 54px;
+    letter-spacing: 0.8px;
+}
+
+.features__wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+.features__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 240px;
+    text-align: center;
+}
+
+.feauters__item__logo {
+    min-width: 72px;
+    min-height: 56px;
+    margin-bottom: 30px;
+}
+
+.logo__cup {
+    background: url("../img/icons/cup.svg") no-repeat;
+}
+
+.logo__expert {
+    background: url("../img/icons/expert.svg") no-repeat;
+}
+
+.logo_clock {
+    background: url("../img/icons/clock.svg") no-repeat;
+}
+
+.logo__human {
+    background: url("../img/icons/human.svg") no-repeat;
+}
+
+.feauters__item__title {
+    margin-bottom: 16px;
+    font-family: 'GT Eesti Pro Display';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.6px;
+}
+
+.features__item__text {
+    font-family: 'GT Eesti Pro Text';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.4px;
+}
+
+.feedback {
+    background-color: #EFF3F6;
+}
+
+.feedback__title {
+    max-width: 700px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 65px;
+    text-align: center;
+    font-family: 'GT Eesti Pro Display';
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 54px;
+    letter-spacing: 0.8px;
+}
+
+.feedback__form {
+    display: flex;
+    flex-direction: column;
+    max-width: 455px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+
+.input {
+    height: 55px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    font-family: 'GT Eesti Pro Display';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.7px;
+    border: 1px solid #B2BAC2;
+    border-radius: 6px;
+}
+
+.select {
+    height: 55px;
+    margin-bottom: 30px;
+    padding: 0 20px;
+    appearance: none;
+    font-family: 'GT Eesti Pro Display';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.7px;
+    background: url("../img/icons/arrow.svg") no-repeat 96% center;
+    background-color: #fff;
+    color: #667585;
+    border: 1px solid #B2BAC2;
+    border-radius: 6px;
+}
+
+.input:focus,
+.select:focus {
+    outline-color: #005BFF;
+}
+
+.submit {
+    width: 255px;
+    height: 65px;
+    margin: 35px auto auto auto;
+    font-family: 'GT Eesti Pro Display';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 20px;
+    letter-spacing: 0.7px;
+    background-color: #005BFF;
+    color: #fff;
+    outline: none;
+    border: 2px solid #005BFF;
+    border-radius: 10px;
+}
+
+.submit:hover {
+    transition: all 0.3s;
+    cursor: pointer;
+    background-color: #fff;
+    color: #005BFF;
+    border: 2px solid #005BFF;  
+}
+
+::placeholder {
+    color: #001A34;
+}
+
+.comment::placeholder {
+    color: #667585;
+}
+
+input:focus::-webkit-input-placeholder { 
+    color:transparent; 
+}
+
+.footer {
+    padding: 80px 0;
+    background-color: #001A34;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__copyright {
+    width: 430px;
+    font-family: 'GT Eesti Pro Text';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #fff;
+}
+
+.footer__social {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
