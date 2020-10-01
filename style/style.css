@@ -95,12 +95,16 @@ body {
     font-size: 22px;
 }
 
+.adaptive_menu{
+    display: none;
+}
+
 .promo__img {
     display: flex;
     background: url("../img/promo.jpg") no-repeat;
     background-size: cover;
     min-height: 708px;
-    
+
 }
 
 .promo__discription {
@@ -241,7 +245,7 @@ body {
 
 .second__promo__discription {
     max-width: 410px;
-    margin: 12% 0 0 59%; 
+    margin: 12% 0 0 59%;
     color: #fff;
 }
 
@@ -394,7 +398,7 @@ body {
     cursor: pointer;
     background-color: #fff;
     color: #005BFF;
-    border: 2px solid #005BFF;  
+    border: 2px solid #005BFF;
 }
 
 ::placeholder {
@@ -405,8 +409,8 @@ body {
     color: #667585;
 }
 
-input:focus::-webkit-input-placeholder { 
-    color:transparent; 
+input:focus::-webkit-input-placeholder {
+    color:transparent;
 }
 
 .footer {
@@ -419,7 +423,9 @@ input:focus::-webkit-input-placeholder {
     justify-content: space-between;
     align-items: center;
 }
-
+.footer__slogan{
+    display: none;
+}
 .footer__copyright {
     width: 430px;
     font-family: 'GT Eesti Pro Text';
@@ -428,6 +434,9 @@ input:focus::-webkit-input-placeholder {
     line-height: 20px;
     letter-spacing: 0.4px;
     color: #fff;
+}
+.footer__brand_mobile{
+    display: none;
 }
 
 .footer__social {

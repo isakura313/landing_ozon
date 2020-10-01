@@ -1,0 +1,95 @@
+@media screen and (max-width:760px){
+    .header__wrapper{
+        height: 76px;
+    }
+    .header__logo{
+        height: 36px;
+        width: 120px;
+        margin-left: 4.5%;
+    }
+    .header__courses-list__item, .header__slogan{
+        display: none;
+    }
+    .adaptive_menu{
+        display: block;
+        padding-right: 1em;
+    }
+    .adaptive_menu i{
+        font-size: 25px;
+    }
+    .promo__img{
+        background-image: url("../img/promo_mobile.png");
+        min-height: 702px;
+    }
+
+    .promo__discription{
+        width: 92%;
+        margin-top: 65vh;
+    }
+    .promo__discription__title{
+        font-size: 30px;
+    }
+    .our__courses{
+        overflow: scroll;
+        margin: 36px 0 34px 0;
+        padding: 0 16px;
+    }
+    .courses__item{
+        min-width: 276px;
+        height: 428px;
+        border-radius: 12px;
+        margin-right: 40px;
+    }
+    .second__promo__img{
+        background-image: url("../img/promo_mobile_second.png");
+    }
+    .second__promo__discription{
+        width: 92%;
+        margin-top: 65vh;
+        margin: 85vh auto 0 auto;
+    }
+    .features{
+        overflow: scroll;
+        margin: 36px 0 34px 0;
+        padding: 0 16px;
+    }
+    .features__item{
+        height: 276px;
+        width: 274px;
+        margin-right: 20px;
+    }
+    .wrapper{
+        width: 100%;
+    }
+    .footer{
+        background-color: white;
+    }
+    .footer__wrapper{
+        flex-direction: column;
+        color:black;
+    }
+    .footer__slogan{
+        display: block;
+        color: black;
+    }
+    .footer__copyright{
+        color: black;
+    }
+    .footer__brand_mobile{
+        display: block;
+    }
+    .footer__brand{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
