@@ -4,12 +4,32 @@
     align-items: center;
     height: 154px;
 }
+@keyframes shadow-pop-br {
+    0% {
+    box-shadow: 0 0 #005BFF; 
+    transform: translateX(0) translateY(0);
+    }
+    50% {
+    box-shadow: 2px 2px #005BFF;
+    transform: translateX(-4px) translateY(-4px);   
+    }
+    100% {
+    box-shadow: 4px 4px #005BFF;
+    transform: translateX(-8px) translateY(-8px);
+    }
+  }
+  
+  
+
 .logo{
     background-image: url('../images/Logo.png');
     height: 58px;
     width:182px;
     background-size: contain;
     background-repeat: no-repeat;
+    animation-name: shadow-pop-br; 
+    animation-duration: 1.5s; 
+    animation-iteration-count: 2;
 }
 .nav{
     display: flex;
