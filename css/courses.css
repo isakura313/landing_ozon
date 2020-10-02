@@ -36,4 +36,8 @@
     font-size: 16px;
     color: #005BFF;
     text-decoration: none;
+    opacity: 1;
+}
+.card__link:hover{
+    opacity: 0.5;
 }

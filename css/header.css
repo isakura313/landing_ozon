@@ -9,6 +9,15 @@
     background-repeat: no-repeat;
     height: 58px;
     width: 190px;
+    opacity: 1;
+}
+.logo:hover{
+    background-image: url('../images/Logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 58px;
+    width: 190px;
+    opacity: 0.5;
 }
 .nav{
     display: flex;
