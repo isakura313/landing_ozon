@@ -9,6 +9,15 @@
     width:182px;
     background-size: contain;
     background-repeat: no-repeat;
+    opacity: 1;
+}
+.logo:hover{
+    background-image: url('../images/Logo.png');
+    height: 58px;
+    width:182px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.5;
 }
 .nav{
     display: flex;
