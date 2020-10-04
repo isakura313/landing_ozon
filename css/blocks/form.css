@@ -32,7 +32,6 @@
   padding: 20px;
   background: #ffffff;
   border: 1px solid #b2bac2;
-  box-sizing: border-box;
   border-radius: 6px;
 }
 .contact__form__item::placeholder {
@@ -41,9 +40,63 @@
 }
 
 .textarea {
+  margin-top: 40px;
     height: 200px;
 }
 
 .select, .textarea::placeholder {
   color: #667585
+}
+
+.select {
+  position: relative;
+}
+
+.select.is-active .select__body {
+  display: flex;
+}
+.select__header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: #ffffff;
+  border: 1px solid #b2bac2;
+  border-radius: 6px;
+  width: 456px;
+  height: 62px;
+}
+
+.select_current {
+  font-size: 18px;
+  line-height: 24;
+  padding: 8px;
+}
+.select__icon {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  font-size: 30px;
+  margin-left: auto;
+}
+
+.select__body {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  padding: 0 20px;
+  background: #ffffff;
+  border: 1px solid #b2bac2;
+  border-top: 0;
+  height: 120px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.select__item:hover {
+  color: #b2bac2;
+  cursor: pointer;
 }
