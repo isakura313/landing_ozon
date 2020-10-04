@@ -1,0 +1,31 @@
+@import 'css/minify.css';
+@import 'css/adaptive.css';
+@import 'css/courses.css';
+@import 'css/features.css';
+@import 'css/footer.css';
+@import 'css/form.css';
+@import 'css/header.css';
+@import 'css/promo_second.css';
+@import 'css/promo.css';
+@import 'css/font.css';
+
+.wrapper{
+    margin: 0 auto;
+    max-width: 1600px;
+}
+:root{
+    --main-font: "GT Eesti Pro Display";
+    --light-bg-color: #2f80ed;
+    --dark-bg-color: #005BFF;
+    --main-dark: #333333;
+    --second-dark-color: #001A34;
+    --main-second-grey: #EFF3F6;
+    --danger-color: #F91155;
+    --font-dark-color: #33475C;
+    --input-color: #1a3047;
+    --select-color: #667585;
+   
+}
+
+
+

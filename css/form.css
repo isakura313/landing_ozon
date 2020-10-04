@@ -1,0 +1,105 @@
+.form_wrapper{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--main-second-grey);
+    width: 1600px;
+    height: 956px;
+    margin-top: 80px;
+}
+.form_wrapper__h3{
+    font-family: var(--main-font);
+    font-size: 46px;
+    line-height: 54px;
+    letter-spacing: 0.8px;
+    text-align: center;
+    font-weight: 500;
+    margin: 160px 0 64px 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 456px;
+   /*  align-items: center; */
+}
+.form__input, .form__select, .form__submit{
+    margin-bottom: 32px;
+}
+.form__input{
+    color: var(--input-color);
+    height: 56px;
+    /* width: 456px; */
+    line-height: 24px;
+    letter-spacing: 0.7;
+    font-size: 18px;
+    padding: 16px 20px;
+    border-radius: 6px;
+    outline: none;
+    font-weight: normal;
+    font-style: normal;
+    font-family: var(--main-font);
+    border: 1px solid #B2BAC2;
+}
+select{
+    appearance: auto;
+/*     background: url("../images/Icons/arrow.png") no-repeat white;
+    background-size: 5%;
+    appearance: none;
+    background-position-x: 95%;
+    background-position-y: 50%; */
+}
+.form__select{
+    padding: 16px 20px;
+    width: 456px;
+    border-radius: 6px;
+    border: 1px solid #B2BAC2;
+    font-family: var(--main-font);
+    color: var(--select-color);
+    font-weight: normal;
+    letter-spacing: 0.7px;
+    font-size: 18px;
+}
+.form__option_disabled{
+    color: white;
+}
+.form__option{
+    font-size: 16px;
+    color: var(--input-color);
+}
+.form__comment{
+    width: 456px;
+    height: 56px;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 64px;
+    padding: 16px 20px;
+    border-radius: 6px;
+    border: 1px solid #B2BAC2;
+    font-family: var(--main-font);
+    color: var(--select-color);
+}
+textarea{
+    resize: none;
+}
+.form__submit{
+    width: 253px;
+    height: 64px;
+    padding: 22px 32px;
+    background-color: var(--dark-bg-color);
+    font-family: var(--main-font);
+    border-radius: 8px;
+    font-size: 22px;
+    line-height: 20px;
+    white-space: pre;
+    letter-spacing: 0.7px;
+    margin: 0 auto 80px auto;
+    border: none;
+    border-right: 8px;
+    color:white;
+}
+.form__submit:hover{
+    background-color: var(--danger-color);
+    cursor: pointer;
+    transition: all 0.5s;
+}
