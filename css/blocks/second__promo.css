@@ -1,10 +1,11 @@
 .second__promo {
     margin-top: 136px;
     background-image: url("../../images/second_promo.png");
+    justify-content: flex-end;
 }
 
 .second__promo__content{
-    margin: 182px 120px 0 840px;
+    /* margin: 182px 120px 0 840px; */
     max-width: 456px;
     min-height: 344px;
 }
