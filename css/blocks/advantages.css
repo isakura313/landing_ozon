@@ -26,3 +26,11 @@
     line-height: 26px;
 }
 
+@media (max-width:768px){
+    .advantage__wrapper{
+        min-height: 300px;
+    overflow-y: scroll;
+    scrollbar-color: rebeccapurple green;
+    scrollbar-width: thin;
+    }
+}

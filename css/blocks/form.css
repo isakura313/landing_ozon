@@ -100,3 +100,9 @@
   color: #b2bac2;
   cursor: pointer;
 }
+
+@media (max-width: 768px){
+  .contact__header {
+    font-size: 36px;
+  }
+}

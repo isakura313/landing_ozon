@@ -2,7 +2,7 @@
   max-width: 1176px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .card {
@@ -12,6 +12,7 @@
   box-sizing: border-box;
   box-shadow: 2px 2px 20px #e9eef1;
   border-radius: 12px;
+  margin: 0 20px;
 }
 .card__image {
   border-radius: 12px 12px 0 0;
@@ -33,4 +34,40 @@
 .card__link {
   margin-left: 24px;
   color: var(--btn-color);
+}
+
+@media (max-width: 1200px) {
+  .card__wrapper {
+    overflow-y: scroll;
+    scrollbar-color: rebeccapurple green;
+    scrollbar-width: thin;
+  }
+
+  .card, .card__image{
+    max-width: 276px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .card, .card__image{
+    max-width: 256px;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .card__wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    max-width: 376px;
+    margin-bottom: 20px;
+  }
+
+  .card__image {
+    max-width: 376px;
+  }
 }

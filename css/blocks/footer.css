@@ -18,3 +18,20 @@
 .social_img {
     margin: 0 5px;
 }
+
+@media (max-width: 768px){
+    .footer__content {
+        flex-direction: column;
+        padding: 60px 0;
+    }
+
+    .copyright{
+        text-align: center;
+    }
+    .footer__content__item{
+        margin-bottom: 40px;
+    }
+    .footer__content__item:last-child{
+        margin-bottom: 0;
+    }
+}

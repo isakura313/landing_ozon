@@ -8,3 +8,19 @@
     max-width: 456px;
     min-height: 344px;
 }
+
+@media (max-width: 768px) {
+    .second__promo{
+        background-image: url("../../images/mobile_second_promo.png");
+        align-items: flex-end;
+        justify-content: center;
+        min-height: 2230px;
+    }
+
+    .second__promo__content{
+        margin: 0;
+        margin-bottom: 56px;
+        max-width: 90%;
+    }
+
+}
