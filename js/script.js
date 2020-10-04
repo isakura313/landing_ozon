@@ -3,7 +3,7 @@
 let select = function () {
     let selectHeder = document.querySelectorAll('.select__header');
 
-    let selectItem = document.querySelectorAll('select__item');
+    let selectItem = document.querySelectorAll('.select__item');
 
     selectHeder.forEach(item =>{
         item.addEventListener('click', selectToggle)
@@ -36,26 +36,3 @@ select();
 //     })
 //
 // })
-
-$(document).ready(function(){
-    $('.owl-carousel').owlCarousel({
-        loop:true,
-        margin:10,
-        responsiveClass:true,
-        responsive:{
-            0:{
-                items:1,
-                nav:true
-            },
-            600:{
-                items:2,
-                nav:false
-            },
-            1000:{
-                items:3,
-                nav:true,
-                loop:false
-            }
-        }
-    })
-});
