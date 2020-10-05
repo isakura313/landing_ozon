@@ -120,6 +120,10 @@ body {
     font-size: 58px;
     line-height: 68px;
     letter-spacing: 1px;
+    animation-name: move_down_text;
+    animation-iteration-count: 1;
+    animation-duration: 0.9s;
+    animation-timing-function: ease-in;
 }
 
 .promo__discription__text {
@@ -129,7 +133,23 @@ body {
     font-size: 24px;
     line-height: 32px;
     letter-spacing: 0.6px;
+
+    animation-name: move_down_text;
+    animation-iteration-count: 1;
+    animation-duration: 0.9s;
+    animation-timing-function: ease-in;
+    /*animation-fill-mode: backwards;*/
 }
+
+@keyframes move_down_text {
+    0%{
+        transform: translateY(-50px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
 
 .promo__discription__button {
     padding: 22px 32px;
@@ -142,7 +162,32 @@ body {
     border: none;
     border-radius: 10px;
     outline: none;
+
+    animation-name: rotate_button;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
 }
+
+
+
+@keyframes rotate_button {
+    0% {
+        transform: scale(1) rotateZ(0);
+    }
+    15%{
+        transform: scale(2) rotateZ(180deg);
+    }
+    25% {
+        transform: scale(1) rotateZ(360deg);
+    }
+    100% {
+        transform: scale(1) rotateZ(360deg);
+    }
+}
+
 
 .promo__discription__button:hover {
     transition: all 0.3s;
