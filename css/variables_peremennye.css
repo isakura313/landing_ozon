@@ -1,0 +1,17 @@
+.promo{
+    margin: 0 auto;
+    max-width: 1416px;
+}
+
+
+:root{
+--main-font: "Raleway";
+--light-bg-color: #005BFF;
+--dark-bg-color: #005BFF;
+--main-dark: #333333;
+--footer-bg-color: #001A34;
+--main-second-grey: #EFF3F6;
+--hover-color: #F91155;
+--color-dark-space: #33475C;
+
+}
