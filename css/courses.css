@@ -57,9 +57,10 @@
 .courses_text{
     font-size: 19px;
     font-family: var(--main-font);
-    line-height: 0.8px;
+    line-height: 1.8;
     margin: 16px 0 24px 0;
-    font-weight: 300;
+    
+
 }
 .course_link{
     color:var(--dark-bg-color);
