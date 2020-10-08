@@ -1,0 +1,23 @@
+@font-face{
+    font-family: "GT Eesti Pro Display";    
+    src: url("../fonts/GTEestiProDisplay-Light.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+* {
+    font-family: "GT Eesti Pro Display";
+}
+.wrapper{
+    margin: 0 auto;
+    max-width: 1416px;
+}
+
+:root{
+    --light-bg-color: #2f80ed;
+    --dark-bg-color: #005BFF;
+    --main-dark: #333333;
+    --second-dark-color: #001A34;
+    --main-second-grey: #EFF3F6;
+    --danger-color: #F91155;
+    --color-input-text: #667585;
+}
