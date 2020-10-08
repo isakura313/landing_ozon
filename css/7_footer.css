@@ -73,6 +73,9 @@ footer{
 .social__img_utube{
     background-image: url('../images/icons/Youtube.svg');
 }
+.social__img_adapt{
+    display: none;
+}
 .footer__logo_2{
     background-image: url('../images/Ozon_logo.png');
     background-repeat: no-repeat;
@@ -80,4 +83,7 @@ footer{
     width: 109px;
     background-size: contain;
     align-self: center;
+}
+.header__h5_adapt{
+    display: none;
 }

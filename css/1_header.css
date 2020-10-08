@@ -39,3 +39,6 @@
     line-height: 26px;
     font-weight: 500;
 }
+.burger_header{
+    display: none;
+}

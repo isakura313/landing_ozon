@@ -95,7 +95,7 @@ textarea{
     letter-spacing: 0.7px;
     margin: 0 auto 80px auto;
     border: none;
-    border-right: 8px;
+    border-radius: 8px;
     color:white;
 }
 .form__submit:hover{
