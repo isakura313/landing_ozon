@@ -1,0 +1,25 @@
+:root{
+    --main-color:#001A34;
+    --btn-color: #005BFF;
+    --background-color: #EFF3F6;
+    --action-color: #F81155;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
