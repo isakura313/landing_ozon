@@ -1,0 +1,119 @@
+.promo_2{
+    background-image: url(/images/image\ 83.png);
+    background-repeat: no-repeat;
+    height: 708px;
+    width: 1416px;
+    margin: 0 auto;
+}
+
+.promo_wrapper_2{
+    color: #FFFFFF;
+
+    padding: 15% 0 0 50%;
+}
+.promo_h2_2{
+    font-size: 52px;
+    font-family: var(--main-font);
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+    font-weight: bold;
+    width: 550px;
+}
+
+.promo_p_2{
+
+    font-size: 22px;
+    font-family: var(--main-font);
+    line-height: 1.4;
+    letter-spacing: 0.4px;
+    margin:  0 0 32px 0;
+    font-weight: 300;
+    width: 430px;
+}
+.promo_b_2{
+
+    color: inherit;
+    font-size: 22px;
+    background-color: var(--dark-bg-color);
+    font-family: var(--main-font);
+    border: 0;
+    font-weight: 300;
+    padding: 22px 32px;
+    border-radius: 8px ;
+    letter-spacing: 0.8px;
+}
+
+.promo_b_2:hover{
+
+    cursor: pointer;
+    transition: all 1s;
+    background-color: var(--hover-color);
+
+}
+.priemushestva{
+    text-align: center;
+    font-family: var(--main-font);
+    font-size: 46px;
+    margin-top: 80px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.priemushestva1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 50px 19% 11px 19%;
+
+    
+}
+.logo11{
+    height: 240px;
+    width: 220px;
+  
+}
+
+.lider{
+    background-image: url(/images/Icons/cup.svg);
+    height: 72px;
+    width: 65px;
+    background-repeat: no-repeat;
+    margin-left: 33%;
+}
+
+.exp{
+    background-image: url(/images/Icons/Expert.svg);
+    height: 72px;
+    width: 65px;
+    background-repeat: no-repeat;
+    margin-left: 33%;
+
+}
+.act{
+    background-image: url(/images/Icons/clock\ 2.svg);
+    height: 72px;
+    width: 65px;
+    background-repeat: no-repeat;
+    margin-left: 33%;
+}
+.kur{
+    background-image: url(/images/Icons/human.svg);
+    height: 72px;
+    width: 65px;
+    background-repeat: no-repeat;
+    margin-left: 33%;
+}
+.logo_title1{
+    font-size: 24px;
+    font-family: var(--main-font);
+    font-weight: bold;
+    line-height: 1.6;
+    letter-spacing: 1.2px;
+    text-align: center;
+}
+.logo_text1{
+    font-size: 18px;
+    font-family: var(--main-font);
+    line-height: 26px;
+    letter-spacing: 0.4px;
+    text-align: center;
+    font-family: var(--color-dark-space);
+}
