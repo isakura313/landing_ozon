@@ -1,0 +1,31 @@
+.features {
+    margin-bottom: 80px;
+}
+.features__container {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1020px;
+    justify-content: space-between;
+}
+
+.features__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 240px;
+    text-align: center;
+    padding: 13.5px;
+
+}
+
+.features__title {
+    font-weight: 500;
+font-size: 24px;
+margin-top: 32px;
+}
+
+.features__text {
+    font-weight: 300;
+font-size: 18px;
+margin-top: 16px;
+}

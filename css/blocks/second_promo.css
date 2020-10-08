@@ -1,0 +1,15 @@
+.second__promo {
+    display: flex;
+    margin-top: 67px;
+    background-image:url("../../images/promo_second.png");
+    background-size: cover;
+    min-height: 708px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.second__promo__btn{
+    flex: none;
+    max-width: 238px;
+    height: 64px;
+}
