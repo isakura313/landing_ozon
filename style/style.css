@@ -84,6 +84,10 @@ body {
     letter-spacing: 0.6px;
 }
 
+.header__courses-list__item:visited {
+    color: #001A34;
+}
+
 .header__courses-list__item:hover {
     transition: all 0.3s;
     color: #005BFF;
@@ -95,10 +99,13 @@ body {
     font-size: 22px;
 }
 
+.header__sburger {
+    display: none;
+}
+
 .promo__img {
     display: flex;
     background: url("../img/promo.jpg") no-repeat;
-    background-size: cover;
     min-height: 708px;
     
 }
@@ -162,14 +169,14 @@ body {
 .our__courses__wrapper {
     display: flex;
     justify-content: space-between;
-    max-width: 1176px;
+    width: 1176px;
     margin: 0 auto;
 }
 
 .courses__item {
     display: flex;
     flex-direction: column;
-    max-width: 376px;
+    width: 376px;
 }
 
 .courses__item__img {
@@ -314,6 +321,7 @@ body {
 }
 
 .feedback {
+    min-width: 1416px;
     background-color: #EFF3F6;
 }
 
@@ -410,6 +418,7 @@ input:focus::-webkit-input-placeholder {
 }
 
 .footer {
+    min-width: 1416px;
     padding: 80px 0;
     background-color: #001A34;
 }
@@ -418,6 +427,16 @@ input:focus::-webkit-input-placeholder {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.footer__logo {
+    background: url("../img/icons/logo_white.svg") no-repeat;
+    width: 181px;
+    height: 58px;
+}
+
+.footer__slogan {
+    display: none;
 }
 
 .footer__copyright {
@@ -434,4 +453,34 @@ input:focus::-webkit-input-placeholder {
     display: flex;
     justify-content: space-between;
     width: 200px;
+}
+
+.insta {
+    background: url("../img/icons/insta.svg") no-repeat;
+    width: 40px;
+    height: 40px;
+}
+
+.facebook {
+    background: url("../img/icons/facebook.svg") no-repeat;
+    width: 40px;
+    height: 40px;
+}
+
+.vk {
+    background: url("../img/icons/vk.svg") no-repeat;
+    width: 40px;
+    height: 40px;
+}
+
+.yotube {
+    background: url("../img/icons/youtube.svg") no-repeat;
+    width: 40px;
+    height: 40px;
+}
+
+.ozon {
+    background: url("../img/icons/ozon.svg") no-repeat;
+    width: 120px;
+    height: 24px;
 }

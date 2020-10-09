@@ -1,0 +1,210 @@
+@media screen and (max-width: 480px) {
+    .wrapper {
+        max-width: 360px;
+    }
+
+    .header__wrapper {
+        min-height: 78px;
+        padding: 0 16px;
+    }
+
+    .header__logo {
+        width: 120px;
+        height: 38px;
+    }
+
+    .header__courses-list {
+        display: none;
+    }
+
+    .header__slogan {
+        display: none;
+    } 
+
+    .header__sburger {
+        display: block;
+    }
+
+  .promo__img {
+        background: url("../img/mobile-promo.jpg") no-repeat;
+    }
+
+    .promo__discription {
+        width: 328px;
+        margin-left: 18px;
+        margin-top: 396px;
+    }
+
+    .promo__discription__title {
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 0.8px;
+    }
+
+    .promo__discription__text {
+        max-width: 270px;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.4px;
+    }
+
+    .promo__discription__button {
+        width: 100%;
+        padding: 16px 0;
+        font-size: 18px;
+        letter-spacing: 0.7px;
+    }
+
+    .our__courses {
+        margin-bottom: 56px;
+    }
+
+    .our__courses__title {
+        padding: 56px 0 36px 0;
+        font-size: 36px;
+    }
+
+    .our__courses__wrapper {
+        width: 360px;
+        overflow: scroll;
+    }
+
+    .courses__item {
+        min-width: 300px;
+        height: 429px;
+        margin-right: 40px;
+        border-radius: 12px;
+    }
+
+    .second__promo__img {
+        background: url("../img/mobile-second-promo.jpg") no-repeat;
+        margin-bottom: 56px;
+    }
+
+   .second__promo__discription {
+        width: 328px;
+        margin-left: 18px;
+        margin-top: 396px;
+    }
+
+    .features{
+        
+    }
+    
+
+    .features__title {
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 0.8px;
+    }
+
+    .features__wrapper {
+        max-width: 360px;
+        overflow: scroll;
+    }
+
+    .features__item {
+        align-items: flex-start;
+        min-width: 270px;
+        margin-right: 26px;
+        margin-bottom: 2px;
+        padding: 32px 20px;
+        text-align: left;
+        border: 1px solid #E9EEF1;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px #E9EEF1;
+    }
+
+    .features__item:last-of-type {
+        margin-right: 0;
+    }
+
+    .feedback {
+        min-width: 100%;
+    }
+
+    .feedback__title {
+        padding-top: 56px;
+        padding-bottom: 36px;
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 0.8px;
+    }
+
+    .feedback__form {
+        max-width: 328px;
+    }
+
+    .submit {
+        width: 100%;
+    }
+
+    .footer {
+        min-width: 100%;
+        padding: 56px 0;
+        background-color: #fff;
+    }
+
+    .footer__wrapper {
+        flex-direction: column;
+    }
+
+    .footer__logo {
+        background: url("../img/icons/logo.svg") no-repeat;
+        background-size: cover;
+        width: 156px;
+        height: 50px;
+        margin-bottom: 34px;
+    }
+
+    .footer__slogan {
+        display: block;
+        margin-bottom: 34px;
+        font-family: 'GT Eesti Pro Display';
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 26px;
+        letter-spacing: 0.6px;
+    }
+
+    .footer__copyright {
+        max-width: 328px;
+        margin-bottom: 36px;
+        text-align: center;
+        color: #001A34;
+    }
+
+    .footer__social {
+        margin-bottom: 36px;
+    }
+
+    .insta {
+        background: url("../img/icons/insta-dark.svg") no-repeat;
+        width: 40px;
+        height: 40px;
+    }
+    
+    .facebook {
+        background: url("../img/icons/facebook-dark.svg") no-repeat;
+        width: 40px;
+        height: 40px;
+    }
+    
+    .vk {
+        background: url("../img/icons/vk-dark.svg") no-repeat;
+        width: 40px;
+        height: 40px;
+    }
+    
+    .yotube {
+        background: url("../img/icons/youtube-dark.svg") no-repeat;
+        width: 40px;
+        height: 40px;
+    }
+    
+    .ozon {
+        background: url("../img/icons/ozon-blue.svg") no-repeat;
+        width: 120px;
+        height: 24px;
+    }
+}

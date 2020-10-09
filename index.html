@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ozon New Skills</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/adaptive.css">
@@ -12,9 +13,9 @@
     <header class="header">
         <div class="wrapper">
             <div class="header__wrapper">
-                <div class="header__logo">
-                    <a href="#"><img src="img/icons/logo.svg" alt="Ozon New Skills"></a>
-                </div>
+                    <a href="#">
+                        <img src="img/icons/logo.svg" alt="Ozon New Skills"  class="header__logo">
+                    </a>
                 <div class="header__courses-list">
                     <a href="#" class="header__courses-list__item">Бизнес-аналитика</a>
                     <a href="#" class="header__courses-list__item">Python 18+</a>
@@ -23,12 +24,15 @@
                 <div class="header__slogan">
                     <h1>Это вам не Школа!</h1>
                 </div>
+                <div class="header__sburger">
+                    <i class="fa fa-bars"></i>
+                </div>
             </div>
         </div>
     </header>
-    <main class="main">
-        <div class="wrapper">
-            <section class="promo">
+   <main class="main">
+        <section class="promo">
+            <div class="wrapper">
                 <div class="promo__img">
                     <div class="promo__discription">
                         <h2 class="promo__discription__title">Ozon New Skills</h2>
@@ -38,37 +42,41 @@
                         <button class="promo__discription__button">Выбрать курс</button>
                     </div>
                 </div>
+            </div>
             </section>
-            <section class="our__courses">
-                <h2 class="our__courses__title">Наши курсы</h2>
-                <div class="our__courses__wrapper">
-                    <div class="courses__item">
-                        <div class="courses__item__img img__laptop"></div>
-                        <div class="courses__item__wrapper">
-                            <h5 class="courses__item__title">Бизнес-аналитика</h5>
-                            <p class="courses__item__text">Изучение основных инструментов и механизмов бизнес-аналитики</p>
-                            <a href="#" class="courses__item__more">Узнать больше</a>
+             <section class="our__courses">
+                <div class="wrapper">
+                    <h2 class="our__courses__title">Наши курсы</h2>
+                    <div class="our__courses__wrapper">
+                        <div class="courses__item">
+                            <div class="courses__item__img img__laptop"></div>
+                            <div class="courses__item__wrapper">
+                                <h5 class="courses__item__title">Бизнес-аналитика</h5>
+                                <p class="courses__item__text">Изучение основных инструментов и механизмов бизнес-аналитики</p>
+                                <a href="#" class="courses__item__more">Узнать больше</a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="courses__item">
-                        <div class="courses__item__img img__keyboard"></div>
-                        <div class="courses__item__wrapper">
-                            <h5 class="courses__item__title">Python 18+</h5>
-                            <p class="courses__item__text">Основы программирования и знакомство с возможностями языка Python</p>
-                            <a href="#" class="courses__item__more">Узнать больше</a>
+                        <div class="courses__item">
+                            <div class="courses__item__img img__keyboard"></div>
+                            <div class="courses__item__wrapper">
+                                <h5 class="courses__item__title">Python 18+</h5>
+                                <p class="courses__item__text">Основы программирования и знакомство с возможностями языка Python</p>
+                                <a href="#" class="courses__item__more">Узнать больше</a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="courses__item">
-                        <div class="courses__item__img img__keyboard-button"></div>
-                        <div class="courses__item__wrapper">
-                            <h5 class="courses__item__title">Frontend-разработчик</h5>
-                            <p class="courses__item__text">Курс для новичков, которые хотят начать свой путь в Frontend-разработке</p>
-                            <a href="#" class="courses__item__more">Узнать больше</a>
+                        <div class="courses__item">
+                            <div class="courses__item__img img__keyboard-button"></div>
+                            <div class="courses__item__wrapper">
+                                <h5 class="courses__item__title">Frontend-разработчик</h5>
+                                <p class="courses__item__text">Курс для новичков, которые хотят начать свой путь в Frontend-разработке</p>
+                                <a href="#" class="courses__item__more">Узнать больше</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="second__promo">
+           <section class="second__promo">
+            <div class="wrapper">
                 <div class="second__promo__img">
                     <div class="second__promo__discription">
                         <h2 class="promo__discription__title">Сложно определиться?</h2>
@@ -78,8 +86,10 @@
                         <button class="promo__discription__button">Оставить заявку</button>
                     </div>
                 </div>
+            </div>
             </section>
             <section class="features">
+            <div class="wrapper">
                 <h2 class="features__title">Преимущества</h2>
                 <div class="features__wrapper">
                     <div class="features__item">
@@ -104,10 +114,9 @@
                         <p class="features__item__text">Поддержка преподавателя и куратора на всех этапах обучения</p>
                     </div>
                 </div>
+            </div>
             </section>
-        </div>
             <section class="feedback">
-                <div class="wrapper">
                     <h2 class="feedback__title">Оставить заявку<br> 
                         на бесплатное пробное занятие</h2>
                     <form action="#" class="feedback__form">
@@ -124,31 +133,30 @@
                         <input type="text" placeholder="Комментарий" class="input comment">
                         <input type="submit" value="Отправить заявку" class="submit">
                     </form>
-                </div>
             </section>
     </main>
     <footer class="footer">
         <div class="wrapper">
             <div class="footer__wrapper">
-                <div class="footer__logo">
-                    <a href="#"><img src="img/icons/logo_white.svg" alt="Ozon New Skills"></a>
+                <div class="footer__logo"></div>
+                <div class="footer__slogan">
+                    <p>Это вам не Школа!</p>
                 </div>
                 <div class="footer__copyright">
-                    <p>© 2019 ООО «Интернет Решения». Все права защищены.
+                    <p>© 2019 ООО «Интернет Решения». Все права защищены.<br>
                         Москва, Пресненская наб., 10, блок С2<br>
                         ons@ozon.ru</p>
                 </div>
                 <div class="footer__social">
-                    <a href="#"><img src="img/icons/insta.svg" alt="instagram"></a>
-                    <a href="#"><img src="img/icons/facebook.svg" alt="facebook"></a>
-                    <a href="#"><img src="img/icons/vk.svg" alt="vkontakte"></a>
-                    <a href="#"><img src="img/icons/youtube.svg" alt="youtube"></a>
+                    <div class="insta"></div>
+                    <div class="facebook"></div>
+                    <div class="vk"></div>
+                    <div class="yotube"></div>
                 </div>
-                <div class="footer__brand">
-                    <a href="#"><img src="img/icons/ozon.svg" alt="ozon"></a>
-                </div>
+                    <div class="ozon"></div>
             </div>
         </div>
+    </div>
     </footer>
 </body>
 </html>
