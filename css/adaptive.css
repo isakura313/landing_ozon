@@ -5,12 +5,12 @@
     }
     .header{
         height: 76px;
-        width: 360px;
+        max-width: 360px;
         justify-content: space-between;
     }
     .header__logo{
         height: 38px;
-        width: 120px;
+        max-width: 120px;
         margin-left: 16px;
     }
     .header__nav, .header__h5{
@@ -26,7 +26,7 @@
     .promo{
         background-image: url('../images/mobile_promo_first.jpg');    
         height: 702px;
-        width: 360px;
+        max-width: 360px;
         background-size: 360px;
     }
     .promo_wrapper{
@@ -40,14 +40,14 @@
         line-height: 42px;
         letter-spacing: 0.8px;
         font-weight: 500;
-        width: 328px;
+        max-width: 328px;
     }
     .promo__p{
         font-size: 18px;
         line-height: 26px;
         letter-spacing: 0.4px;
         margin: 16px 0 0 16px;
-        width: 328px;
+        max-width: 328px;
         height: 104px;
     }
     .promo__btn{
@@ -56,7 +56,7 @@
         line-height: 24px;
         margin: 32px 0 0 16px;
         border-radius: 6px;
-        width: 328px;
+        max-width: 328px;
         height: 56px;
     }
     .promo__btn:hover{
@@ -81,17 +81,17 @@
     }
     .course_card{
         box-shadow: 2px 2px 20px #e9eef1;
-        width: 376px;
+        max-width: 376px;
         height: 428.8px;
         align-content: center;
     }
     .course_card__wrapper{
-        width: 276px;
+        max-width: 276px;
         padding: 32px 24px;
     }
     .course_card__img{
         height: 172.8px;
-        width: 276px;
+        max-width: 276px;
     }   
     .course_card__title{
         height: 56px;
@@ -104,7 +104,7 @@
         background-size: 360px;
     }
     .promo_second_wrapper{
-        width: 360px;
+        max-width: 360px;
         height: 718px;
     } 
     .promo__h2_2{
@@ -113,7 +113,7 @@
         line-height: 42px;
         letter-spacing: 0.8px;
         font-weight: 500;
-        width: 328px;
+        max-width: 328px;
         height: 84px;
     }
     .promo__p_2{
@@ -121,11 +121,11 @@
         line-height: 26px;
         letter-spacing: 0.4px;
         margin: 0 0 32px 16px;
-        width: 328px;
+        max-width: 328px;
         height: 78px;
     }
     .promo__btn_2{
-        width: 328px;
+        max-width: 328px;
         height: 56px;
         font-size: 18px;
         line-height: 24px;
@@ -140,7 +140,7 @@
         color: black;
     }
     .features__h2{
-        width: 328px;
+        max-width: 328px;
         height: 42px;
         font-size: 36px;
         line-height: 42px;
@@ -157,14 +157,14 @@
         display: flex;
         align-items: flex-start;
         flex-direction: column;
-        width: 276px;
+        max-width: 276px;
         height: 274px;
         box-shadow: 2px 2px 20px #E5EBF0;
     }
     .features_card__img{
         margin: 34px 0 34px 33px;
         background-size: contain;
-        width: 52px;
+        max-width: 52px;
         height: 58px;
     }
     .features_card__tittle{
@@ -173,46 +173,46 @@
     }
     .features_card__text{
         margin-left: 24px;
-        width: 228px;
+        max-width: 228px;
         height: 78px;
         text-align: start;
         font-weight: lighter;
     }
     .form_wrapper{
-        width: 360px;
+        max-width: 360px;
         height: 870px;
         margin-top: 56px;
     }
     .form_wrapper__h3{
-        width: 328px;
+        max-width: 328px;
         height: 126px;
         font-size: 36px;
         line-height: 42px;
         margin: 56px 0 36px 16px;
     }
     form{
-        width: 328px;
+        max-width: 328px;
     }
     .form__input{
         color: var(--input-color);
         height: 56px;
-        width: 328px;
+        max-width: 328px;
         font-weight: 400;
     }
     .form__select{
         padding: 16px 20px;
-        width: 328px;
+        max-width: 328px;
         height: 56px;
     }
     .form__option_disabled, .form__option{
         font-size: 12px;
     }
     .form__comment{
-        width: 328px;
+        max-width: 328px;
         margin-bottom: 36px;
     }
     .form__submit{
-        width: 328px;
+        max-width: 328px;
         padding: 22px 0;
         margin-right: 16px;
     }
@@ -224,7 +224,7 @@
     }
     footer{
         background-color: white;
-        width: 360px;
+        max-width: 360px;
         height: 473px;
         color: black;
         padding: 0;
@@ -234,11 +234,11 @@
         margin-top: 56px;
         display: grid;
         grid-template-rows: 50px 60px 118px 73.45px 61px;
-        width: 360px;
+        max-width: 360px;
     }
     .footer_logo{
         background-image: url('../images/Logo.png');
-        width: 156px;
+        max-width: 156px;
         background-size: contain;
         align-self: flex-end;
         justify-self: center;
@@ -261,7 +261,7 @@
     .copyright__text{
         align-self: flex-end;
         text-align: center;
-        width: 328px;
+        max-width: 328px;
         margin: 0;
     }
     .social{
@@ -270,11 +270,11 @@
         justify-self: center;
         margin: 0;
         padding: 0;
-        width: 181px;
+        max-width: 181px;
     }
     .social__link{
         margin: 0;
-        width: 181px;
+        max-width: 181px;
     }
     .social__link_img{
         justify-self: center;
@@ -290,13 +290,13 @@
     }
     .social__img_adapt{
         background-image: url('../images/Icons/Icon.svg');
-        width: 181px;
+        max-width: 181px;
         background-size: 97%;
     }
     .footer__logo_2{
         background-image: url('../images/mobile_blue_logo.png');
         height: 23.34px;
-        width: 107px;
+        max-width: 107px;
         background-size: contain;
         align-self: flex-end;
         justify-self: center;
