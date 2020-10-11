@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'GT Eesti Pro Display';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: local(GT_Eesti_Pro_Display), url(/GT_Eesti_Pro_Display/GTEestiProDisplay-Light.ttf) format('ttf');
+  }
