@@ -17,6 +17,14 @@
     width: 520px;
 }
 
+.menu__logo{
+    position: relative;
+}
+
+.menu__logo img {
+    position: absolute;
+    transform: translateY(-200px);
+}
 .menu__link {
     text-decoration: none;
     color: var( --second-dark-color);
