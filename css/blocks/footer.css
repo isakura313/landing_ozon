@@ -1,0 +1,11 @@
+.footer {
+    background-color: var(--main-color);  
+}
+
+.footer__wrapper {
+    display: flex;
+    color: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+    height: 220px;
+}
