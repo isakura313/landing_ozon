@@ -32,3 +32,15 @@
     width: 208px;
 height: 64px;
 }
+
+@media(max-width:768px){
+  .promo{
+    background-image:url("../../images/mobile__promo__bg.png");
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  
+  .promo__article{
+    margin-bottom: 60px;
+  }
+}
