@@ -13,3 +13,14 @@
     max-width: 238px;
     height: 64px;
 }
+
+@media(max-width:768px){
+    .second__promo{
+      background-image:url("../../images/mobile_promo_second.png");
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+    .second__promo__btn {
+        width: 100%;
+    }
+  }

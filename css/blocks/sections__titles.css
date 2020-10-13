@@ -6,3 +6,9 @@
   font-size: 46px;
   margin: 80px 0;
 }
+
+@media (max-width: 768px) {
+  .section__title {
+    font-size: 36px;
+  }
+}

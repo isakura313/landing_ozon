@@ -47,3 +47,9 @@ margin: 60px auto 60px auto;
 width: 253px;
 height: 64px;
 }
+
+@media (max-width:768px) {
+    .form__header{
+        font-size: 36px;
+    }
+}

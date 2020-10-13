@@ -13,7 +13,7 @@
   color: #ffffff;
   margin-left: 120px;
   max-width: 550px;
-  max-height: 276px;
+  /* max-height: 276px; */
 }
 
 .promo__title {
@@ -29,7 +29,7 @@
 }
 
 .promo__btn {
-    width: 208px;
+  width: 208px;
 height: 64px;
 }
 
@@ -40,7 +40,23 @@ height: 64px;
     justify-content: flex-end;
   }
   
-  .promo__article{
+  .promo__article {
+    flex: none;
     margin-bottom: 60px;
+    margin-left: 0;
+    align-items: start;
+    width: 100%;
+  }
+
+  .promo__title {
+    font-size: 36px;
+  }
+  
+  .promo__text {
+    font-size: 18px;
+  }
+
+  .promo__btn {
+   width: 100%;
   }
 }

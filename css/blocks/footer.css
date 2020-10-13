@@ -9,3 +9,22 @@
     align-items: center;
     height: 220px;
 }
+
+.footer__slogan {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .footer__wrapper {
+        padding: 20px 0;
+        flex-direction: column;
+        height: 320px;
+    }
+    .footer_copyright {
+        text-align: center;
+    }
+
+    .footer__slogan {
+        display: block;
+    }
+}
