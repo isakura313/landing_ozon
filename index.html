@@ -100,12 +100,14 @@
                 <input type="tel"  placeholder="+7" class="input">
                 <input type="email" placeholder="E-mail" class="input">
                 <input type="text" placeholder="Имя и фамилия" class="input">
-                <select name="choice__course" id="choice__course__id" class="select">
-                    <option value="course" disabled selected>Выберите курс</option>
-                    <option value="analytics">Бизнес-аналитика</option>
-                    <option value="Python">Python 18+</option>
-                    <option value="Frontend">Frontend-разработчик</option>
-                </select>
+                <div class="select_wrapper">
+                    <select name="choice__course" id="choice__course__id" class="select"> 
+                        <option value="course" disabled selected>Выберите курс </option>
+                        <option value="analytics">Бизнес-аналитика</option>
+                        <option value="Python">Python 18+</option>
+                        <option value="Frontend">Frontend-разработчик</option>
+                 </select>
+            </div>
                 <input type="text" placeholder="Комментарий" class="input comment">
                 <input type="submit" value="Отправить заявку" class="submit">
     </section>
@@ -134,7 +136,6 @@
                 </div>
             </div>
         </div>
-    </footer>
-    
+    </footer>    
 </body>
 </html>
