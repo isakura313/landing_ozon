@@ -1,0 +1,31 @@
+.footer {
+    padding: 80px 0;
+    background-color: var(--second-dark-color);
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__slogan{
+    display: none;
+}
+.footer__copyright {
+    width: 430px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: white;
+}
+.footer__social {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+.footer__logo_adaptiv, 
+.footer__copyright_adaptiv,
+.footer__brand_adaptiv {
+      display: none;  
+}
