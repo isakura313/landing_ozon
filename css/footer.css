@@ -19,9 +19,13 @@
     letter-spacing: 0.4px;
     color: white;
 }
-
 .footer__social {
     display: flex;
     justify-content: space-between;
     width: 200px;
+}
+.footer__logo_adaptiv, 
+.footer__copyright_adaptiv,
+.footer__brand_adaptiv {
+      display: none;  
 }
